@@ -1,10 +1,6 @@
+import Navbar from "../components/Navbar";
 import '../styles/global.css'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-//Uncomment after nav bar js file created
-/*
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -15,4 +11,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-*/

@@ -11,9 +11,9 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
-          <a>
-            <h1 className="Nav">Project 2</h1>
-          </a>
+
+          <h1 className="Nav">Project 2</h1>
+
         </Link>
 
         <div className="nav__menu-bar">

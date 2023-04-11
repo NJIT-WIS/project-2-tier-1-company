@@ -25,3 +25,43 @@ img {
   max-width: 100%;
   display: block;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+
+}
+
+.nav__link {
+    font-size:15px;
+    position: relative;
+}
+
+.nav__link::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    bottom: -15px;
+    left: 0;
+    height: 5px;
+    transition: all 0.1s;
+    background-color: black;
+}
+
+.nav__link:hover::before {
+    width: 100%;
+}

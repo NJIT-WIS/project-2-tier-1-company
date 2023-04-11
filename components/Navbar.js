@@ -6,6 +6,9 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
 ];
+
+//If we want to change nav menu bar appearance,
+//modify amount of divs in "nav__menu-bar"
 const Navbar = () => {
   return (
     <header>
@@ -19,6 +22,8 @@ const Navbar = () => {
         <div className="nav__menu-bar">
             <div></div>
             <div></div>
+            <div></div>
+
         </div>
 
         <div className="nav__menu-list">

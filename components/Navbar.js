@@ -6,6 +6,11 @@ import { useState } from "react";
 const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "About", href: "/about" },
+  { text: "Resources", href: "/resources"},
+  { text: "Services", href: "/services"},
+  { text: "Blog", href: "/blog"},
+  { text: "Contact Us", href: "/contact"}
+
 ];
 
 //If we want to change nav menu bar appearance,

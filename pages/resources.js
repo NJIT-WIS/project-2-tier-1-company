@@ -13,7 +13,6 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p><center>This is the Resources page</center></p>
-        <h1><center>Our Team</center></h1>
         <h1><center>Academic Articles</center></h1>
         <h1><center>Downloadable Guides</center></h1>
       </section>

@@ -6,6 +6,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+    background-color: #D9D9E2
+
 }
 
 * {
@@ -18,10 +20,102 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 25;
+}
+
+nav{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C6C6CE;
+}
+.nav__menu-bar{
+  display: flex;
+  row-gap: 5px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.nav__menu-bar div{
+  width: 50px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+}
+.nav__menu-list{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+  width: 300px;
+  right: -300px;
+  padding: 25px 15px;
+  transition: all 0.1s;
+  min-height: calc(100vh - 60px);
+  background-color: #C6C6CE;
+}
+
+.nav__link{
+  font-size: 20px;
+  position: relative;
+  transition: all 0.1s;
+}
+
+.nav__menu-list.active{
+  right: 0;
+}
+
+.nav__link{
+  font-size: 15px;
+  position: relative;
+  transition: all 0.1s;
+}
+
+.nav__link:hover{
+ font-weight: bold;
+}
+
+.center{
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .nav__menu-bar{
+    display: none;
+  }
+  .nav__menu-list{
+    position: unset;
+    flex-direction: row;
+    align-items: center;
+    min-height: fit-content;
+    width: fit-content;
+    column-gap: 25px;
+  }
+  .nav__link::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    bottom: -15px;
+    left: 0;
+    background-color: black;
+    transition: all 0.1s;
+  }
+  .nav__link:hover:before{
+   width: 100%;
+  }
 }

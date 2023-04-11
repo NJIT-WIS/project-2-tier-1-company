@@ -12,26 +12,14 @@ export default function Home({ allPostsData }) {
         <title>MyWebClass.org | About</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[About]</p>
-        <p>
-          (About page test like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <p>This is the about page</p>
+        <h1><center>Our Team</center></h1>
+        <h1><center>Our Mission</center></h1>
+        <h1><center>Our Partnerships</center></h1>
+        <h1><center>Agile Overview</center></h1>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`} legacyBehavior>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+
+
     </Layout>
   );
 }

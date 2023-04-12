@@ -9,19 +9,21 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>MyWebClass.org | About</title>
+        <title>MyWebClass.org | Contact Us</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>This is the about page</p>
-        <h1><center>Our Team</center></h1>
-        <h1><center>Our Mission</center></h1>
-        <h1><center>Our Partnerships</center></h1>
-        <h1><center>Agile Overview</center></h1>
+        <h1><center>Contact us below!</center></h1>
+        <form>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
       </section>
-
 
     </Layout>
   );
+
 }
 
 export async function getStaticProps() {

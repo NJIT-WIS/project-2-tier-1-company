@@ -9,7 +9,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>MyWebClass.org | Contact Us</title>
+        <title>MyWebClass.org | Blog</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p><center>This is the blog page as of now</center></p>

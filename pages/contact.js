@@ -12,9 +12,14 @@ export default function Home({ allPostsData }) {
         <title>MyWebClass.org | Contact Us</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p><center>This is the Contact page as of now</center></p>
+        <h1><center>Contact us below!</center></h1>
+        <form>
+            <input name="name" type="text" placeholder="Name" />
+            <input name="email" type="text" placeholder="Email" />
+            <textarea name="text" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
       </section>
-
 
     </Layout>
   );

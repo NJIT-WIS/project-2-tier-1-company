@@ -14,9 +14,9 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <h1><center>Contact us below!</center></h1>
         <form>
-            <input name="name" type="text" placeholder="Name" />
-            <input name="email" type="text" placeholder="Email" />
-            <textarea name="text" placeholder="Comment"></textarea>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
             <input type="submit" value="SUBMIT"/>
         </form>
       </section>

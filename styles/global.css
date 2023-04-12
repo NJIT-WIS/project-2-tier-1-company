@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-    background-color: #D9D9E2
+    background-color: #e3e8ee
 
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #0035f3;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ nav{
   padding: 15px;
   justify-content: space-between;
   align-items: center;
-  background-color: #C6C6CE;
+  background-color: #caced3;
 }
 .nav__menu-bar{
   display: flex;

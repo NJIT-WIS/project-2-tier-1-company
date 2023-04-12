@@ -4,6 +4,8 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import Image from 'next/image'
+import banner from './/img/testbanner2.jpg'
 
 export default function Home({ allPostsData }) {
   return (
@@ -11,6 +13,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Image src={banner} width={1500} height={300} />
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>

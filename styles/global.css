@@ -118,4 +118,51 @@ nav{
   .nav__link:hover:before{
    width: 100%;
   }
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 20px;
+  border-radius: 5px;
+  width:100%;
+  line-height: 20px;
+  border:2px solid #FFFFFF;
+  transition: all 0.1s;
+  padding: 15px;
+  box-sizing: border-box;
+  color:white;
+  margin-bottom: 15px;
+  outline:0;
+  background-color: transparent;
+}
+
+.feedback-input:focus {
+ border:2px solid #00FF00;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size:24px;
+  font-weight:600;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  margin-top:-4px;
+  background:#90BFE5;
+
+}
+[type="submit"]:hover {
+ background:#00FF00;
+ }
 }

@@ -5,3 +5,6 @@
 | Agile Documentation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/9 | In progress | km776 | 4/6/2023 | 4/6/23 | Documentation | Worked on presentation |
 | Navigation bar | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/9 | In progress | SarangAP | 4/11/2023 | TBD | Design and Content | Currently have home and about section, will add more navbar items when we add more pages|
 | Contact Us page | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/42 | In progress | SarangAP | 4/11/2023 | TBD | Design and Content | Added fields for name, email, and comment. Will need to update with form validation|
+| Initial site map | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/40 | Completed | SarangAP | 4/11/2023 | 4/11/2023 | Design and Content | Added pages for blog, contact, resources, and services|
+| Remote Layout Pic | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/40 | Completed | SarangAP | 4/11/2023 | 4/11/2023 | Design and Content | Removed pic and title from layout.js|
+| Playwright testing titles | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/46 | Completed | SarangAP | 4/11/2023 | 4/11/2023 | Testing and Documentation| Added paths and titles to pages array|

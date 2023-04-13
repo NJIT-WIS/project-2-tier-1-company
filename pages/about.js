@@ -12,11 +12,13 @@ export default function Home({ allPostsData }) {
         <title>MyWebClass.org | About</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>This is the about page</p>
-        <h1><center>Our Team</center></h1>
-        <h1><center>Our Mission</center></h1>
-        <h1><center>Our Partnerships</center></h1>
-        <h1><center>Agile Overview</center></h1>
+        <div>
+          <center><p> This is the about page </p></center>
+          <center><h1> Our Team </h1></center>
+          <center><h1> Our Mission </h1></center>
+          <center><h1> Our Partnerships </h1></center>
+          <center><h1> Agile Overview </h1></center>
+        </div>
       </section>
 
 

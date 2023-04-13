@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <Image src={banner} width={400} height={300} id="banner"/>
       <section className={utilStyles.headingMd}>
-        <p><h1>Introducing mywebclass.org!</h1> </p>
+        <p><h1>Introducing mywebclass.org!</h1></p>
         <p>
           A new learning resource for educators in our AI driven world.
         </p>

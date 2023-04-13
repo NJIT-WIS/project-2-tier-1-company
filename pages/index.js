@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p><h1>Introducing mywebclass.org!</h1> </p>
         <p>
-          A new learning resourec for educators in our AI driven world.
+          A new learning resource for educators in our AI driven world.
         </p>
       </section>
 

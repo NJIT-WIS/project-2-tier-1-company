@@ -23,7 +23,7 @@ const Navbar = () => {
     <header>
       <nav className={`nav`}>
         <Link href={"/"}>
-          <h1 className="Nav">Project 2</h1>
+          <h1 className="Nav">IS 218 Project 2</h1>
         </Link>
 
         <div

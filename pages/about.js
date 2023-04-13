@@ -28,6 +28,18 @@ export default function Home({ allPostsData }) {
               succeed. Join us on our mission to empower learners everywhere and unlock the limitless potential of
               education.</center></p>
         <h1><center>Our Partnerships</center></h1>
+          <h3><center> And lastly...YOU!</center></h3>
+            <p><center> At our core, we believe that education is a powerful tool for creating positive change in the 
+             world. And we know that we can't do it alone. That's why we rely on the support of passionate volunteers like 
+             you to help us achieve our mission. By volunteering with us, you'll have the opportunity to make a meaningful
+             impact on the lives of learners around the globe. Whether you're interested in sharing your knowledge as an 
+             instructor, providing support as a mentor, or contributing your skills in other ways, we have a variety of 
+             opportunities available to match your interests and expertise.</center></p>
+             <br>
+            <p><center> As a volunteer, you'll join a community of like-minded individuals who are committed to making a 
+            difference through education. You'll gain valuable experience, build new skills, and make connections that can 
+            last a lifetime. So if you're looking for a way to give back and make a positive impact in the world, we invite 
+            you to join us on our mission. Together, we can empower learners everywhere and transform the future of education.</center></p>
         <h1><center>Agile Overview</center></h1>
       </section>
 

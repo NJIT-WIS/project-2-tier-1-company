@@ -171,7 +171,8 @@ textarea {
   display: block;
   float: right;
   margin-left: 5px;
-  border-image: black 30 round
+  border: 5px solid #516e7a;
+  border-radius: 3px;
 }
 }
 

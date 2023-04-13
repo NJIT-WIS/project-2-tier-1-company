@@ -6,8 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-    background-color: #e3e8ee
-
+    background-color: #e3e8ee;
 }
 
 * {
@@ -167,4 +166,15 @@ textarea {
 [type="submit"]:hover {
  background:#00FF00;
  }
+
+.rightimg {
+  display: block;
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  border: 5px solid #516e7a;
+  border-radius: 3px;
 }
+}
+

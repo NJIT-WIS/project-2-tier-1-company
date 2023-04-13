@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 import Image from 'next/image'
 import banner from './/img/computer.jpg'
+import hero from './/img/computerlab.jpg'
 
 export default function Home({ allPostsData }) {
   return (
@@ -13,6 +14,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Image src={hero} width={950} height={700}/>
       <Image src={banner} width={400} height={300} className="rightimg"/>
       <section className={utilStyles.headingMd}>
         <p><h1>Introducing mywebclass.org!</h1></p>

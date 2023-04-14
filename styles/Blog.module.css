@@ -1,20 +1,25 @@
 .blogPage {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  margin: 0 -16px;
+  justify-content: center;
+  gap: 1rem;
+  height: auto;
 }
+
 .blogColumn {
-  width: 33.33%;
-  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(33.33% - 1rem);
+  max-width: calc(33.33% - 1rem);
+  gap: 1rem;
 }
 
 .blogPost {
-  height: 415px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
+  margin-bottom: 20px;
 }
 
 .blogPostLink {
@@ -27,12 +32,22 @@
 }
 
 .blogPostTitle {
-  font-size: 24px;
-  margin-top: 10px;
-  margin-bottom: 0;
-  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .blogPost {
   margin-bottom: 2rem;
   text-align: center;
+}
+.blogPostImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.blogPostDate {
+  margin-top: auto;
+  font-size: 0.875rem;
+  color: #6b7280;
+  align-self: flex-end;
+  margin-bottom: 0.5rem;
 }

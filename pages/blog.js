@@ -24,9 +24,11 @@ export default function Blog({ allPostsData }) {
                     <h3 className={styles.blogPostTitle}>{title}</h3>
                   </a>
                 </Link>
-                <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
-                </small>
+                <div className={styles.blogPostDateContainer}>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </div>
               </div>
             ))}
           </div>
@@ -39,9 +41,11 @@ export default function Blog({ allPostsData }) {
                     <h3 className={styles.blogPostTitle}>{title}</h3>
                   </a>
                 </Link>
-                <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
-                </small>
+                <div className={styles.blogPostDateContainer}>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </div>
               </div>
             ))}
           </div>
@@ -54,9 +58,11 @@ export default function Blog({ allPostsData }) {
                     <h3 className={styles.blogPostTitle}>{title}</h3>
                   </a>
                 </Link>
-                <small className={utilStyles.lightText}>
-                  <Date dateString={date} />
-                </small>
+                <div className={styles.blogPostDateContainer}>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                  </small>
+                </div>
               </div>
             ))}
           </div>

@@ -10,4 +10,4 @@
 | Playwright testing titles | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/46 | Completed | SarangAP | 4/11/2023 | 4/11/2023 | Testing and Documentation| Added paths and titles to pages array|
 | Create Sample Layout | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/49 | Completed | eyh3 | 4/12/2023 | 4/12/2023 | Design and Content | Added banner image and tested text layouts | 
 | Finalize Homepage Layout | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/52 | Completed | eyh3 | 4/12/2023 | 4/12/2023 | Design and Content | Added hero image, filler text, and fixed image margins |
-
+| Adding blog posts | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/59 | In Progress | SarangAP | 4/13/2023 | TBD | Analytics and Blog | Added the placeholders for blog posts, will need to change images/.md files |

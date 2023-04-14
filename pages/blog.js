@@ -9,13 +9,24 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>MyWebClass.org | Blog</title>
+        <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p><center>This is the blog page as of now</center></p>
       </section>
-
-
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}><center>We have a variety of blog posts to read below!</center></h2>
+        <ul className={utilStyles.list}>
+          {allPostsData.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`} legacyBehavior>{title}</Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
+        </ul>
+      </section>
     </Layout>
   );
 }

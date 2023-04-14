@@ -36,6 +36,7 @@
 .blogPost {
   margin-bottom: 2rem;
   text-align: center;
+  min-height: 33%;
 }
 .blogPostImage {
   max-width: 100%;

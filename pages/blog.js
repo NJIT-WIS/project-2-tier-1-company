@@ -10,7 +10,7 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>MyWebClass.org | Blog</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}><center>We have a variety of blog posts to read below!</center></h2>

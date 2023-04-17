@@ -11,7 +11,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/facebook-icon.png" alt="Facebook" />
+         <img src="/images/facebook.png" alt="Facebook" />
         </a>
         <a
           href="https://www.twitter.com/"
@@ -19,7 +19,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/twitter-icon.png" alt="Twitter" />
+          <img src="/images/twitter.png" alt="Twitter" />
         </a>
         <a
           href="https://www.instagram.com/"
@@ -27,7 +27,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/instagram-icon.png" alt="Instagram" />
+          <img src="/images/instagram.png" alt="Instagram" />
         </a>
       </div>
     </footer>

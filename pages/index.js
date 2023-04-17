@@ -9,6 +9,8 @@ import banner from './img/computer.jpg';
 import hero from './img/computerlab.jpg';
 import ReactGA from 'react-ga';
 import React, { Component } from "react";
+import styles from '../styles/privacyModal.module.css'
+
 
 export default function Home({ allPostsData }) {
   ReactGA.initialize('G-5LYMBP1L2Y');

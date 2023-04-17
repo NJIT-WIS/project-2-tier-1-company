@@ -1,26 +1,43 @@
-.footer {
+/* Footer */
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
-  padding: 20px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  color: #444;
+  font-size: 0.8rem;
 }
 
-.socialMedia {
+footer a {
+  color: #444;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/* Email Signup Form */
+.email-form {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.socialMedia a {
-  margin-right: 10px;
+.email-form label {
+  margin-right: 0.5rem;
 }
 
-.newsletter {
-  display: flex;
-  flex-direction: column;
+.email-form input[type="email"] {
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
 }
 
-.newsletter label {
-  font-weight: bold;
-  margin-bottom: 10px;
+.email-form input[type="submit"] {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
 }

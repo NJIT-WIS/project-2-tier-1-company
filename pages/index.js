@@ -7,13 +7,26 @@ import Date from '../components/date'
 import Image from 'next/image'
 import banner from './/img/computer.jpg'
 import hero from './/img/computerlab.jpg'
+import ReactGA from 'react-ga';
+
 
 export default function Home({ allPostsData }) {
+ReactGA.initialize('G-5LYMBP1L2Y');
+
   return (
       <Layout home>
 
       <Head>
         <title>{siteTitle}</title>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=G-5LYMBP1L2Y`}></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5LYMBP1L2Y');
+          `}
+        </script>
       </Head>
       <Image src={hero} width={950} height={700}/>
       <Image src={banner} width={400} height={300} className="rightimg"/>

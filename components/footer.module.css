@@ -3,6 +3,10 @@
   gap: 10px;
   align-items: center;
   padding: 10px 0;
+  background-color: #f8f8f2;
+  padding: 10px 0;
+  width:100%;
+  bottom:0;
 }
 
 .footer img {

@@ -11,6 +11,15 @@ export default function Blog({ allPostsData }) {
     <Layout>
       <Head>
         <title>MyWebClass.org | Blog</title>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=G-5LYMBP1L2Y`}></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5LYMBP1L2Y');
+          `}
+        </script>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}><center>We have a variety of blog posts to read below!</center></h2>

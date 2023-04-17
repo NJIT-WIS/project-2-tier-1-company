@@ -12,6 +12,15 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>MyWebClass.org | About</title>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=G-5LYMBP1L2Y`}></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5LYMBP1L2Y');
+          `}
+        </script>
       </Head>
       <section className={utilStyles.headingMd}>
         <div>

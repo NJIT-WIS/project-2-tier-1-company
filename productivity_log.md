@@ -3,6 +3,7 @@
 | Fixing nextjs build | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/6 | Completed | eyh3 | 4/4/23 | 4/4/23 | Fix | Copied files locally and pushed | 
 | Fixing playwright workflow | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/7 | Completed | SarangAP | 4/4/23 | 4/4/23 | Fix | Modified workflow files | 
 | Agile Documentation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/9 | In progress | km776 | 4/6/2023 | 4/6/23 | Documentation | Worked on presentation |
+| Google Analytics Integration | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/8 | Completed | SarangAP | 4/6/2023 | 4/17/23 | Analytics and Blog| Added GA to every page |
 | Navigation bar | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/9 | In progress | SarangAP | 4/11/2023 | TBD | Design and Content | Currently have home and about section, will add more navbar items when we add more pages|
 | Contact Us page | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/42 | In progress | SarangAP | 4/11/2023 | TBD | Design and Content | Added fields for name, email, and comment. Will need to update with form validation|
 | Initial site map | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/40 | Completed | SarangAP | 4/11/2023 | 4/11/2023 | Design and Content | Added pages for blog, contact, resources, and services|

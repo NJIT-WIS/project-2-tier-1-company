@@ -5,6 +5,7 @@ import Script from 'next/script'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Footer from './Footer' // Add this import for the footer component
 
 const name = 'Tier 1 Company'
 export const siteTitle = 'MyWebClass.org'
@@ -35,6 +36,7 @@ export default function Layout({ children, home }) {
         }
       />
       <main>{children}</main>
+      <Footer /> {/* Add this line to include the footer component */}
     </div>
   );
 }

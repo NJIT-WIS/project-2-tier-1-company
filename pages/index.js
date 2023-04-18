@@ -9,7 +9,7 @@ import banner from './img/computer.jpg';
 import hero from './img/computerlab.jpg';
 import ReactGA from 'react-ga';
 import React, { Component } from "react";
-import styles from '../styles/privacyModal.module.css'
+import styles from '../styles/privacyModal.module.css';
 
 
 export default function Home({ allPostsData }) {
@@ -45,8 +45,8 @@ export default function Home({ allPostsData }) {
 
       {/* Privacy Modal */}
       {showPrivacyModal && (
-        <div className="privacyModal">
-          <div className="privacyContent">
+        <div className={styles.privacyModal}>
+          <div className={styles.privacyContent}>
             <h2>Privacy Policy</h2>
             <p>
               This website uses Google Analytics to help analyze how users use the site. The tool uses "cookies," which are text files placed on your computer, to collect standard Internet log information and visitor behavior information in an anonymous form.

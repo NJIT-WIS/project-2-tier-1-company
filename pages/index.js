@@ -52,9 +52,7 @@ export default function Home({ allPostsData }) {
               This website uses Google Analytics to help analyze how users use the site. The tool uses "cookies," which are text files placed on your computer, to collect standard Internet log information and visitor behavior information in an anonymous form.
             </p>
             <p>
-              <Link href="/PrivacyPolicy.md" as="/posts/privacy-policy.md" passHref>
-          <a className={styles.privacyPolicyLink}>Privacy Policy</a>
-        </Link>
+              To learn more about how your information is tracked, please refer to our <a href="#">Privacy Policy</a>.
             </p>
             <p>
               By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.

@@ -23,8 +23,8 @@ jobs:
           sudo apt-get install -y libgbm-dev
           npm install
           npm ci
-          npm install -D @playwright/test
           npx playwright install chromium
+          npm install -D @playwright/test
           npm install dotenv 
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on 
           npm install next@latest

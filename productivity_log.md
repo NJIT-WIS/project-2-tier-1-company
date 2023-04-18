@@ -16,3 +16,4 @@
 | Layout of Resources Page | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/63 | Completed | eyh3 | 4/15/2023 | 4/16/2023 | Design and Content | Sample layout for the resources page with placeholder text and images |
 | Social media sharing | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/30 | Completed | SarangAP | 4/17/2023 | 4/17/2023 | User Engagement | Added social media to page footer |
 | Privacy Modal | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/69 | Completed | SarangAP | 4/17/2023 | 4/17/2023 | User Engagement | Added privacy modal to index.js |
+| Contact form validation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/43 | Completed | SarangAP | 4/11/2023 | 4/17/2023 | Testing and Documentation | Added validation to contact page form |

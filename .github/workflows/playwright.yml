@@ -24,6 +24,7 @@ jobs:
           npm install
           npm ci
           npx playwright install chromium
+          npm install -D @playwright/test
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on 
           npm install next@latest
 

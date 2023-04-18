@@ -42,6 +42,9 @@ jobs:
           echo "Starting the application..."
           npm run start & npx wait-on --timeout 50000 http://0.0.0.0:3000/
           echo "Application started."
+          
+      - name: Install Playwright
+        run: npm install playwright
 
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js

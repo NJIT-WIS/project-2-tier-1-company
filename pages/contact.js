@@ -22,10 +22,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <h1><center>Contact us below!</center></h1>
-        <form>
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <form onSubmit ={handleSubmit}>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" onChange={handleInputChange} />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" onChange={handleInputChange} />
+            <textarea name="text" class="feedback-input" placeholder="Comment" onChange={handleInputChange}></textarea>
             <input type="submit" value="SUBMIT"/>
         </form>
       </section>
@@ -42,4 +42,31 @@ export async function getStaticProps() {
       allPostsData
     }
   }
+}
+
+const handleSubmit = (event) => {
+  event.preventDefault();
+  const form = event.target;
+  const name = form.name.value;
+  const email = form.email.value;
+  const comment = form.text.value;
+  if (!name || !email || !comment) {
+    alert("Please fill in all fields.");
+    return;
+  }
+  if (!validateEmail(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+  //Post validation, possibly integrate mailchimp here or alternative appraoch
+  //Considering adding thank you pop up
+};
+
+const validateEmail = (email) => {
+  const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+  return emailRegex.test(email);
+};
+
+const handleInputChange = (event) => {
+//Could add validation here too
 }

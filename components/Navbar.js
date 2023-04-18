@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
-        <Link href={"/"}>
+        <Link href={"/"} legacyBehavior>
           <h1 className="Nav">IS 218 Project 2</h1>
         </Link>
 

@@ -176,7 +176,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   <div className="col-10">
                     <ImageFallback
                       className="banner-img opacity-0"
-                      src="/images/banner-app.png"
+                      src={banner.image}
                       width={1170}
                       height={666}
                       priority={true}

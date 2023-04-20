@@ -17,4 +17,4 @@
 | Social media sharing | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/30 | Completed | SarangAP | 4/17/2023 | 4/17/2023 | User Engagement | Added social media to page footer |
 | Privacy Modal | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/69 | Completed | SarangAP | 4/17/2023 | 4/17/2023 | User Engagement | Added privacy modal to index.js |
 | Contact form validation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/43 | Completed | SarangAP | 4/11/2023 | 4/17/2023 | Testing and Documentation | Added validation to contact page form |
-| Design Home Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | In progress | km776 | 4/19/2023 | 4/20/2023 | Design and Content | Added proper text to homepage that fits sage brand archetype |
+| Design Home Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/19/2023 | 4/20/2023 | Design and Content | Added proper text to homepage that fits sage brand archetype |

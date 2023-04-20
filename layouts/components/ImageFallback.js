@@ -13,7 +13,8 @@ const ImageFallback = (props) => {
   return (
     <Image
       {...rest}
-      src={imgSrc}
+      src={`/images/${imgSrc}`} // Update the image source to reference the relative path to the public/images folder
+      fallback={`/images/${fallback}`} // Update the fallback image source to reference the relative path to the public/images folder
       onError={() => {
         setImgSrc(fallback);
       }}

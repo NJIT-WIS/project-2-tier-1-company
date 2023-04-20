@@ -1,9 +1,9 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "MyWebClass is the new </br> seamless way to learn"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
+    label: Learn More
     href: "#"
 
 ##brands
@@ -21,87 +21,87 @@ brands:
 #features
 features:
   sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Your New </br> Way To Learn
+  description: Empower your personal growth and embrace lifelong learning with MyWebClass.
   list:
     - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Protected Data
+      content: A secure and trusted environment for lifelong learners.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Lifelong Learning
+      content: Expand your knowledge and embrace diverse perspectives.
     - icon: 'shield'
       title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      content: Ignite your mental fortitude and discover your inner resilience.
     - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'lock'
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Build Connections
+      content: Connect with a community of like-minded peers.
+    - icon: 'lock' 
+      title: Protected Data
+      content: A secure and trusted environment for lifelong learners.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Lifelong Learning
+      content: Expand your knowledge and embrace diverse perspectives.
 
 #intro
 intro:
   title: Built Exclusively For You
   subtitle: SHORT INTRO VIDEO
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  description: Forge meaningful connections at MyWebClass, where you'll find courses customized to your needs, <br> with a community of like-minded learners who share your passion for knowledge.
   thumbnail: "/images/video-popup.jpg"
   video_id: dyZcRRWiuuw
 
 #speciality
 speciality:
   primary:
-    title: You Will Not Miss Your All Misunderstandings
-    subtitle: PRIMARY SPECIALITY
-    description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the.
+    title: Network With Peers
+    subtitle: CONNECT
+    description: In this age, skills aren't enough. Access a community of like-minded peers and foster authentic connections, creating meaningful relationships that enhance your learning journey.
     image: /images/features-01.png
   secondary:
-    title: Say Hello To No-Code The Advance Creation
-    subtitle: SECONDARY SPECIALITY
-    description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
+    title: Track Your Progress
+    subtitle: UP-TO-DATE
+    description: As you learn new skills, you'll see your growth and performance in real time. Watch your advancements grow as you develop more robust techniques for a rapidly-evolving digital era.
     image: /images/features-02.png
 
 
 #Testimonial
 testimonial:
-  title: OUR TESTIMONIALS
-  subtitle: Don’t Take Our Word For It
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Our Testimonials
+  subtitle: DON'T TAKE OUR WORD FOR IT
+  description: See what our clients have to say!
   list:
     - author: David Cameron
       avatar: /images/user-img/01.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: I've finally found an online learning platform that's exclusively tailored to my needs at MyWebClass. 
     - author: David Cameron
       avatar: /images/user-img/02.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: I can't say enough good things about MyWebClass! The courses are engaging, the instructors are knowledgeable, and the platform is user-friendly. 
     - author: David Cameron
       avatar: /images/user-img/03.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: MyWebClass has been a game-changer for me. The wide range of courses available has allowed me to explore new subjects and expand my horizons. 
     - author: David Cameron
       avatar: /images/user-img/04.png
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: The connections I've built with like-minded learners have been amazing, and the personalized courses have helped me achieve my learning goals in a way that's truly meaningful to me.
     - author: David Cameron
       avatar: /images/user-img/05.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: I've gained valuable skills and knowledge that have helped me advance in my career.
     - author: David Cameron
       avatar: /images/user-img/06.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: The interactive learning experience and supportive community have made it a truly enriching journey.
     - author: David Cameron
       avatar: /images/user-img/07.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: MyWebClass offers top-notch courses with knowledgeable instructors. I've learned valuable skills that have boosted my confidence and opened up new opportunities.
     - author: David Cameron
       avatar: /images/user-img/08.jpg
       profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      content: MyWebClass has helped me stay ahead in my industry. The practical courses and expert instructors have equipped me with valuable skills that I can apply in my work.
 
 ---

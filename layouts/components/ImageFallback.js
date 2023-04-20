@@ -6,10 +6,6 @@ const ImageFallback = (props) => {
   const { src, fallback, ...rest } = props;
   const [imgSrc, setImgSrc] = useState(src);
 
-  useEffect(() => {
-    setImgSrc(src);
-  }, [src]);
-
   return (
     <Image
       {...rest}

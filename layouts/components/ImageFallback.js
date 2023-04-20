@@ -6,7 +6,9 @@ const ImageFallback = (props) => {
   const [imgSrc, setImgSrc] = useState(src);
 
   useEffect(() => {
-    const isDeployedOnGitHubPages = process.env.NODE_ENV === "production" && window.location.hostname.includes("github.io");
+    const currentLocation = window.location.href;
+    const isDeployedOnGitHubPages = currentLocation.includes("github.io");
+
     const resolvedSrc = isDeployedOnGitHubPages ? `/project-2-tier-1-company${src}` : src;
     setImgSrc(resolvedSrc);
   }, [src]);

@@ -6,43 +6,43 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
+  title: Hello, We’re MyWebClass, and we're to help.
+  content: Welcome to MyWebClass, where learning meets connection. Our exclusive online learning platform offers tailored courses designed to empower you with practical skills, knowledge, and connections to thrive in today's dynamic world. Join our vibrant community of learners and unlock your full potential with MyWebClass.
   image: /images/about/01.jpg
 
 ## our works
 works:
-  subtitle: OUR WORKS
+  subtitle: OUR WORK
   title: What We Do
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: Access Anywhere
+      content: MyWebClass is committed to providing a secure and user-friendly learning environment, ensuring that you can learn with confidence and ease, anytime and anywhere.
+    - title: Education For You
+      content: MyWebClass connects you with experienced instructors who are passionate about their subjects, delivering engaging and interactive lessons that foster deep learning and skill development.
+    - title: Fostering Growth
+      content: With MyWebClass, you'll have access to a supportive community of fellow learners, allowing you to collaborate, share insights, and build meaningful connections that can enhance your learning journey.
+    - title: Building The Future
+      content: MyWebClass is dedicated to helping you achieve your learning goals by providing cutting-edge courses that are continuously updated to reflect the latest industry trends, ensuring you stay relevant and ahead of the curve.
 
 ## our mission
 mission:
-  subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
+  subtitle: COMPANY VISION
+  title: Our Mission
+  content: At MyWebClass, our unwavering mission is to empower learners with a truly transformative online learning experience. We believe in the power of education to positively impact lives, and we are committed to providing a platform that nurtures growth, fosters connections, and enables success. Our approach is centered on understanding the unique needs and aspirations of our learners, and delivering courses that are tailored to their goals. We are dedicated to creating a supportive, engaging, and inclusive learning environment that enables individuals to unlock their full potential, overcome challenges, and thrive in today's dynamic world. Our ultimate goal is to make a meaningful difference in the lives of our learners, and to inspire a lifelong love for learning that transcends boundaries and transforms lives.
   image: /images/about/02.jpg
 
 ## short video
 video:
   subtitle: A SHORT VIDEO
   title: You Take Care Of The Payments, We Take Care Of The Rest.
-  description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the.
+  description: With a guaranteed premium learning experience, you can focus on your growth and training to stay ahead of the curve.
   video_id: dyZcRRWiuuw
   thumbnail: /images/about/video-popup-2.jpg
 
 ## clients
 clients:
   subtitle: OUR CLIENTS
-  title: Trusted By Thousands Companies
+  title: Trusted By Thousands
   brands:
     - /images/brands/01-colored.png
     - /images/brands/02-colored.png
@@ -58,8 +58,8 @@ clients:
 ## members
 our_member:
   subtitle: OUR MEMBERS
-  title: The People Behind
-  content: We were freelance designers and developers, constantly finding </br> ourselves deep in vague feedback. This made every client and team
+  title: The People Behind MyWebClass
+  content: We are proud to offer you a cutting-edge online learning platform that delivers personalized courses and fosters meaningful connections, empowering you to achieve your learning goals and excel in today's ever-changing landscape.
   list:
     - name: Valentin Staykov
       field: Operations
@@ -73,22 +73,13 @@ our_member:
 
 ## office
 our_office:
-  subtitle: OUR OFFICES
-  title: Made With Love Of Around The </br> World With Many Offices
-  content: We were freelance designers and developers, constantly finding </br> ourselves deep in vague feedback. This made every client and team
+  subtitle: OUR OFFICE
+  title: Made With Love In The USA
+  content: MyWebClass could not be made without the help of our passionate developers and staff who believe in our mission as much as we do.
   countries:
     - flag: /images/about/flags/us.png
-      name: NewYork, USA
+      name: New York, USA
       location: 219 Bald Hill Drive Oakland Gardens, NY 11364
-    - flag: /images/about/flags/au.png
-      name: Australia, Perth
-      location: Flat 23 80 Anthony Circlet Port Guiseppe, TAS 2691
-    - flag:  /images/about/flags/germany.png
-      name: Berlin, Germany
-      location: Jl Raya Dewi Sartika Ged Harapan Masa, Br Germeny
-    - flag:  /images/about/flags/china.png
-      name: China, Wohan
-      location: 1hao Wen Ti Huo Dong Zhong Xin 1ceng Jian Xing
 
 ---
 

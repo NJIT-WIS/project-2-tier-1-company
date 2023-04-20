@@ -18,10 +18,6 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
           "name": "Terms & Conditions",
           "url": "/terms-policy"
         }

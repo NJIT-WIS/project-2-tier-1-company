@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -7,7 +6,11 @@ const ImageFallback = (props) => {
   const [imgSrc, setImgSrc] = useState(src);
 
   useEffect(() => {
-    setImgSrc(src);
+    const currentLocation = window.location.href;
+    const isDeployedOnGitHubPages = currentLocation.includes("github.io");
+
+    const resolvedSrc = isDeployedOnGitHubPages ? `/project-2-tier-1-company${src}` : src;
+    setImgSrc(resolvedSrc);
   }, [src]);
 
   return (

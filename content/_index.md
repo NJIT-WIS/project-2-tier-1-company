@@ -1,9 +1,9 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "MyWebClass is the new </br> seamless way to learn"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
+    label: Learn More
     href: "#"
 
 ##brands
@@ -21,27 +21,27 @@ brands:
 #features
 features:
   sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Your New </br> Way To Learn
+  description: Empower your personal growth and embrace lifelong learning with MyWebClass.
   list:
     - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Protected Data
+      content: A secure and trusted environment for lifelong learners.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Lifelong Learning
+      content: Expand your knowledge and embrace diverse perspectives.
     - icon: 'shield'
       title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      content: Ignite your mental fortitude and discover your inner resilience.
     - icon: 'link'
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'lock'
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Build Connections
+      content: Connect with a community of like-minded peers.
+    - icon: 'lock' 
+      title: Protected Data
+      content: A secure and trusted environment for lifelong learners.
     - icon: 'wind'
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Lifelong Learning
+      content: Expand your knowledge and embrace diverse perspectives.
 
 #intro
 intro:

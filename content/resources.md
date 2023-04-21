@@ -3,8 +3,14 @@ title: "Resources"
 layout: "resources"
 draft: false
 ---
-### 1
+### Learning Resources
 Test
 
-### 2
+### Career Resources
+Test
+
+### Professional development resources
+Test
+
+### Technology resources
 Test

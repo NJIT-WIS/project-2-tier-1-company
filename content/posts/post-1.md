@@ -1,12 +1,12 @@
 ---
 title: The Real Product From the Buyers improvements in Overflow basis.
-image: /../public/images/blog/01.jpg
+image: /images/blog/01.jpg
 author:
   name: Abdullah Al Shifat
-  avatar: /../public/images/author/abdullah.jpg
+  avatar: /images/author/abdullah.jpg
 date: 2022-04-04T05:00:00Z
-draft: false
 ---
+
 
 Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
 

@@ -9,8 +9,11 @@ const ImageFallback = (props) => {
     const currentLocation = window.location.href;
     const isDeployedOnGitHubPages = currentLocation.includes("github.io");
 
-    //Update the image path resolution logic
-    const resolvedSrc = isDeployedOnGitHubPages ? `/project-2-tier-1-company${src}` : src;
+    //Checking to see if image source for blogs
+    const resolvedSrc =
+      src.startsWith("/images/blog") || src.startsWith("/images/author")
+        ? (isDeployedOnGitHubPages ? "/project-2-tier-1-company" : "") + src
+        : src;
     setImgSrc(resolvedSrc);
   }, [src]);
 

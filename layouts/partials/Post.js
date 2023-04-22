@@ -6,13 +6,16 @@ import Link from "next/link";
 
 const Post = ({ post, i }) => {
   const { summary_length, blog_folder } = config.settings;
+  const isDev = process.env.NODE_ENV === 'development';
+  const basePath = isDev ? '' : '/project-2-tier-1-company';
+  const imageUrl = `${basePath}${post.frontmatter.image}`; //might need to change this
   return (
     <div className="overflow-hidden rounded-2xl shadow-[0_10px_35px_rgba(0,0,0,.05)]">
       {post.frontmatter.image && (
         <Link href={`/${blog_folder}/${post.slug}`}>
           <ImageFallback
             className="w-full object-cover"
-            src={post.frontmatter.image}
+            src={imageUrl}
             alt={post.frontmatter.title}
             width={570}
             height={335}

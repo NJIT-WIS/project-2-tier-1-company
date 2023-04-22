@@ -68,6 +68,12 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
+        {/* OpenGraph meta tags */}
+        <meta property="og:title" content="MyWebClass.org" />
+        <meta property="og:description" content="The future of learning" />
+        <meta property="og:image" content="https://njit-wis.github.io/project-2-tier-1-company/images/logo.svg" />
+        <meta property="og:url" content="https://njit-wis.github.io/project-2-tier-1-company" />
+        <meta property="og:type" content="website" />
       </Head>
       <Component {...pageProps} />
     </>

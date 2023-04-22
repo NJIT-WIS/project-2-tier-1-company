@@ -2,7 +2,7 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+     "favicon": "https://njit-wis.github.io/project-2-tier-1-company/images/favicon.png",
     "logo": "/images/logo.svg",
     "logo_width": "240",
     "logo_height": "34",
@@ -17,15 +17,16 @@
 
   "params": {
     "tag_manager_id": "",
+    "google_analytics_id": "G-5LYMBP1L2Y",
     "contact_form_action": "#",
     "footer_content": "Your new partner in transforming your learning journey. Join us and stay ahead of the industry.",
     "copyright": "Designed & Developed By Tier One Company and [Themefisher](https://www.themefisher.com)"
   },
 
   "contact_info": {
-    "phone": "+887887998",
-    "email": "info@mywebclass.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "phone": "(973) 596-3000",
+    "email": "tier1company@mywebclass.org",
+    "location": "218 Central Ave, Newark, NJ 07102"
   },
 
   "nav_button": {

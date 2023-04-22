@@ -4,6 +4,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import ReactGA from 'react-ga';
 
 const App = ({ Component, pageProps }) => {
   // import google font css
@@ -27,6 +28,23 @@ const App = ({ Component, pageProps }) => {
       process.env.NODE_ENV === "production" &&
         config.params.tag_manager_id &&
         TagManager.initialize(tagManagerArgs);
+
+      // Google Analytics tracking code
+      if (process.env.NODE_ENV === "production" && config.params.google_analytics_id) {
+        const gaScript = document.createElement('script');
+        gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${config.params.google_analytics_id}`;
+        gaScript.async = true;
+        document.body.appendChild(gaScript);
+
+        const gaConfigScript = document.createElement('script');
+        gaConfigScript.innerHTML = `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${config.params.google_analytics_id}');
+        `;
+        document.body.appendChild(gaConfigScript);
+      }
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

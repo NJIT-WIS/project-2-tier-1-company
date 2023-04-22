@@ -18,14 +18,18 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
           "name": "Terms & Conditions",
           "url": "/terms-policy"
         }
       ]
+    },
+    {
+      "name": "Resources",
+      "url": "/resources"
+    },
+    {
+      "name": "Services",
+      "url": "/services"
     },
     {
       "name": "Contact",
@@ -39,7 +43,7 @@
     },
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "/posts"
     },
     {
       "name": "Terms & Conditions",

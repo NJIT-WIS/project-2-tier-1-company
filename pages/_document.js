@@ -9,7 +9,7 @@ const Document = () => {
     <Html lang="en">
       <Head>
         {/* favicon */}
-        <link rel="shortcut icon" href={favicon} />
+        <link rel="shortcut icon" href={favicon} type="image/png" /> {/* Update the file type to image/png */}
         {/* theme meta */}
         <meta name="theme-name" content="andromeda-light-nextjs" />
         <meta name="msapplication-TileColor" content="#000000" />

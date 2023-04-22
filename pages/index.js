@@ -13,10 +13,10 @@ import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
   const paginationRef = useRef(null);
   const testimonialPaginationRef = useRef(null);
-
   useEffect(() => {
     const ctx = gsap.context(() => {
       const banner = document.querySelector(".banner");

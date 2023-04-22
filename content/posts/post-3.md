@@ -12,7 +12,7 @@ Learning web development can be a daunting task, but thanks to mywebclass.org, i
 
 One of the things I loved about mywebclass.org was the range of courses it offered. The platform provided me with a wealth of courses and tutorials, covering everything from HTML and CSS to JavaScript and beyond. I was able to choose the courses that were most relevant to my interests and skill level, and work through them at my own pace. The platform also provided me with quizzes and assignments to test my knowledge and help me track my progress.
 
-<Blockquote name="Sarah Johnson">"Thanks to mywebclass.org, I was able to learn web development at my own pace and on my own terms. The platform's comprehensive courses and social learning features made it the perfect choice for anyone looking to learn web development online."</blockquote>
+<Blockquote name="Sarah Johnson">"Thanks to mywebclass.org, I was able to learn web development at my own pace and on my own terms. The platform's comprehensive courses and social learning features made it the perfect choice for anyone looking to learn web development online."</Blockquote>
 
 Another feature of mywebclass.org that I found particularly helpful was the ability to connect with other learners and instructors. The platform offered a range of social learning features, including discussion forums and peer reviews, that allowed me to connect with other learners and get feedback on my work. This not only helped me stay motivated but also provided me with valuable insights and perspectives from others in the community.
 

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -10,10 +9,16 @@ const ImageFallback = (props) => {
     setImgSrc(src);
   }, [src]);
 
+  // Update image src with relative URL if in development mode, or with absolute URL including basePath for GitHub Pages
+  const isDev = process.env.NODE_ENV === 'development';
+  const basePath = isDev ? '' : '/project-2-tier-1-company';
+  const imageUrl = `${basePath}${imgSrc}`; //might need to change this
+
+
   return (
     <Image
       {...rest}
-      src={imgSrc}
+      src={imageUrl}
       onError={() => {
         setImgSrc(fallback);
       }}

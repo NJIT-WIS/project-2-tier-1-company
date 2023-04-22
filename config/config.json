@@ -18,8 +18,8 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "copyright": "Designed & Developed By [Themefisher](https:www.themefisher.com)"
+    "footer_content": "Your new partner in transforming your learning journey. Join us and stay ahead of the industry.",
+    "copyright": "Designed & Developed By Tier One Company and [Themefisher](https://www.themefisher.com)"
   },
 
   "contact_info": {
@@ -31,7 +31,7 @@
   "nav_button": {
     "enable": true,
     "label": "Join Us",
-    "link": "https://github.com/NJIT-WIS/project-2-tier-1-company"
+    "link": "https://www.njit.edu/"
   },
 
   "metadata": {
@@ -46,7 +46,7 @@
     "content": "Ready to kickstart your learning?",
     "button": {
       "label": "Join Us",
-      "link": "https://github.com/NJIT-WIS/project-2-tier-1-company"
+      "link": "https://www.njit.edu/"
     }
   },
 

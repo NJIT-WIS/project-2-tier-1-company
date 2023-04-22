@@ -6,21 +6,16 @@ const ImageFallback = (props) => {
   const [imgSrc, setImgSrc] = useState(src);
 
   useEffect(() => {
-    const currentLocation = window.location.href;
-    const isDeployedOnGitHubPages = currentLocation.includes("github.io");
-
-    // Conditionally add the prefix only for specific image paths
-    const resolvedSrc =
-      src.startsWith("/images/blog") || src.startsWith("/images/author")
-        ? (isDeployedOnGitHubPages ? "/project-2-tier-1-company" : "") + src
-        : src;
-    setImgSrc(resolvedSrc);
+    setImgSrc(src);
   }, [src]);
+
+  // Update image src with absolute URL that includes base URL for GitHub Pages
+  const imageUrl = `${process.env.NEXT_PUBLIC_BASE_URL || ''}${imgSrc}`;
 
   return (
     <Image
       {...rest}
-      src={imgSrc}
+      src={imageUrl}
       onError={() => {
         setImgSrc(fallback);
       }}

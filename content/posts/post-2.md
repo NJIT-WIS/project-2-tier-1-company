@@ -1,6 +1,6 @@
 ---
 title: "Enhancing Student Learning with mywebclass.org: Insights from a Teacher"
-image: /images/blog/02.JPG
+image: /images/blog/02.jpg
 author:
   name: Derick Barker
   avatar: /images/author/derick.jpg

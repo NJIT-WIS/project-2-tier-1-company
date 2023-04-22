@@ -10,7 +10,7 @@ const ImageFallback = (props) => {
   }, [src]);
 
   // Update image src with absolute URL that includes base URL for GitHub Pages
-  const imageUrl = `${process.env.NEXT_PUBLIC_BASE_URL}${imgSrc}`;
+  const imageUrl = `${process.env.NEXT_PUBLIC_BASE_URL || ''}${imgSrc}`;
 
   return (
     <Image

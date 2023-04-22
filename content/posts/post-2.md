@@ -1,12 +1,13 @@
 ---
-title: "Enhancing Student Learning with mywebclass.org: Insights from a Teacher"
-image: /images/blog/02.jpg
+title: Why you should launch your product in phases not after done
+image: https://njit-wis.github.io/project-2-tier-1-company/images/blog/02.jpg
 author:
   name: Derick Barker
   avatar: /images/author/derick.jpg
-date: 2022-03-25T05:00:00Z
+date: 2022-04-04T05:00:00Z
 draft: false
 ---
+
 
 As a teacher, incorporating technology into my classroom has been one of the most effective ways to enhance student learning. Mywebclass.org has been an invaluable tool that has helped me create a dynamic and engaging learning environment for my students. In this post, I will share my experiences using mywebclass.org and highlight some of the key benefits of this online learning platform.
 

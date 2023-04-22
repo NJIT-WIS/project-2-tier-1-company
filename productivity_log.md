@@ -21,3 +21,4 @@
 | Design About Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/101 | Completed | km776 | 4/20/2023 | 4/20/2023 | Design and Content | Added about page text |
 | Images not loading | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/113 | Completed | SarangAP | 4/20/2023 | 4/21/2023 | Design and Content | Modified image references |
 | Completed All Pages / Sitemap | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/127 | Completed | eyh3 | 4/21/2023 | 4/212023 | Deployment | Created all pages with filler content |
+| Blog Content | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/29 | Completed | eyh3 | 4/21/2023 | 4/22/2023 | Analytics and Blog | Add blog content

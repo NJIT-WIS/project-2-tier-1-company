@@ -2,7 +2,7 @@
   "site": {
     "title": "MyWebClass.org",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+     "favicon": "https://njit-wis.github.io/project-2-tier-1-company/images/favicon.png",
     "logo": "/images/logo.svg",
     "logo_width": "240",
     "logo_height": "34",

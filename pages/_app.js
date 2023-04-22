@@ -74,6 +74,12 @@ const App = ({ Component, pageProps }) => {
         <meta property="og:image" content="https://njit-wis.github.io/project-2-tier-1-company/images/logo.svg" />
         <meta property="og:url" content="https://njit-wis.github.io/project-2-tier-1-company" />
         <meta property="og:type" content="website" />
+
+        {/* Twitter meta tags */}
+        <meta name="twitter:title" content="MyWebClass.org" />
+        <meta name="twitter:description" content="The future of learning" />
+        <meta name="twitter:image" content="https://njit-wis.github.io/project-2-tier-1-company/images/logo.svg" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Component {...pageProps} />
     </>

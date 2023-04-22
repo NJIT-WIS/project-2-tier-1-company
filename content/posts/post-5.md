@@ -1,5 +1,5 @@
 ---
-title: "Learning to Code Made Fun and Easy with mywebclass.org: Insights from a High School Student"
+title: "Learning to Code Made Fun and Easy with mywebclass.org: Experiences of a High School Student"
 image: /images/blog/05.jpg
 author:
   name: Daniel Kim

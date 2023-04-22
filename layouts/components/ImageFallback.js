@@ -9,8 +9,10 @@ const ImageFallback = (props) => {
     setImgSrc(src);
   }, [src]);
 
-  // Update image src with absolute URL that includes base URL for GitHub Pages
-  const imageUrl = `${process.env.NEXT_PUBLIC_BASE_URL || ''}${imgSrc}`;
+  // Update image src with relative URL if in development mode, or with absolute URL including basePath for GitHub Pages
+  const isDev = process.env.NODE_ENV === 'development';
+  const basePath = isDev ? '' : '/project-2-tier-1-company';
+  const imageUrl = `${basePath}${imgSrc}`;
 
   return (
     <Image

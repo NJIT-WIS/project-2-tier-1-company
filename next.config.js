@@ -2,10 +2,9 @@
  * @type {import('next').NextConfig}
  */
 
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
- // disableStaticImages: true
-
+  images: {
+    domains: ['njit-wis.github.io'],
+  },
 };
-
-module.exports = nextConfig;

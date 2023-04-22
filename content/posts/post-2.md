@@ -1,6 +1,6 @@
 ---
 title: "Enhancing Student Learning with mywebclass.org: Insights from a Teacher"
-image: https://njit-wis.github.io/project-2-tier-1-company/images/blog/02.jpg
+image: /images/blog/02.jpg
 author:
   name: Derick Barker
   avatar: /images/author/derick.jpg

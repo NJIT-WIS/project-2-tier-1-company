@@ -24,3 +24,4 @@
 | Blog Content | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/29 | Completed | eyh3 | 4/21/2023 | 4/22/2023 | Analytics and Blog | Add blog content |
 | Add theme | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/177 | Completed | SarangAP | 4/18/2023 | 4/18/2023 | Design and Content | Theme addition task began on 4/18 but issue formerly created on 4/22 |
 | Re-Add Google Analytics | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/174 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Analytics and Blog | Will provide analytics for every page |
+| Design Home Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edited theme colors to match archetype |

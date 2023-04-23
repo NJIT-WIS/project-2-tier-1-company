@@ -28,3 +28,4 @@
 | Edited Logo | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/179 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edit Logo SVG |
 | OpenGraph and Twitter | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/13 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Framework and SEO | Added tags to app.js |
 | Automation and Continuous integration | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/32 | In Progress | SarangAP | 4/22/2023 | TBD | Testing and documentation | Still need to modify workflows |
+

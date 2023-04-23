@@ -2,7 +2,9 @@ name: Run Playwright and Generate a video, screenshots, and LightHouse HTML Repo
 
 on:
   push:
-    branches: "*"
+    branches:
+      - dev
+      - main
   workflow_dispatch:
 
 jobs:
@@ -25,8 +27,8 @@ jobs:
           npm ci
           npx playwright install chromium
           npm install -D @playwright/test
-          npm install dotenv 
-          npm install -g lighthouse chrome-launcher axe-core chromium wait-on 
+          npm install dotenv
+          npm install -g lighthouse chrome-launcher axe-core chromium wait-on
           npm install next@latest
 
       - name: Create the build
@@ -42,7 +44,7 @@ jobs:
           echo "Starting the application..."
           npm run start & npx wait-on --timeout 50000 http://0.0.0.0:3000/
           echo "Application started."
-          
+
       - name: Install Playwright
         run: npm install playwright
 
@@ -54,7 +56,7 @@ jobs:
           if [ ! -d "test-results" ]; then
             mkdir test-results
           fi
-          
+
       - name: Generate Lighthouse Report
         run: |
           lighthouse http://localhost:3000/ --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"

@@ -3,13 +3,11 @@ on:
   push:
     branches-ignore:
       - main
-  pull-request:
+  pull_request:
     types:
       - synchronize
       - opened
   workflow_dispatch:
-    branches-ignore:
-      - main
 jobs:
   code-quality:
     runs-on: ubuntu-latest

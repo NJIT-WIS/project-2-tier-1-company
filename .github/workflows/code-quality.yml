@@ -2,7 +2,7 @@ name: Code Quality
 on:
   #Will check code quality for any push or pulls
   push: {}
-
+  workflow_dispatch:
 jobs:
   code-quality:
     runs-on: ubuntu-latest

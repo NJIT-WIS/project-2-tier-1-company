@@ -8,6 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Node
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: "lts/*"
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
+
       - name: Checkout code
         uses: actions/checkout@v2
 

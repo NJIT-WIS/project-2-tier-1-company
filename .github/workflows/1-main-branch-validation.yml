@@ -1,0 +1,19 @@
+name: Enforce PRs from Dev to Main
+
+on:
+  pull_request:
+    types:
+      - synchronize
+      - opened
+  workflow_dispatch:
+
+jobs:
+  enforce_dev_to_main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR base and head branch
+        run: |
+          if [[ "${{ github.event.pull_request.base.ref }}" == "main" && "${{ github.event.pull_request.head.ref }}" != "dev" ]]; then
+            echo "error: Only PRs from 'dev' are allowed to merge into 'main'."
+            exit 1
+          fi

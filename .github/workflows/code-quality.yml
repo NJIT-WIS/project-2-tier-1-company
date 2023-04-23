@@ -2,7 +2,6 @@ name: Code Quality
 on:
   #Will check code quality for any push or pulls
   push: {}
-  pull_request: {}
 
 jobs:
   code-quality:

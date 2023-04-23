@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    branches-ignore:
-      - dev
-
 jobs:
   log_commits:
     runs-on: ubuntu-latest

@@ -13,6 +13,9 @@ jobs:
         run: |
           if [[ ! -f "commits.log" ]]; then
             touch commits.log
+            git add commits.log
+            git commit -m "Create commits.log"
+            git push origin main
           fi
 
       - name: Log Commits

@@ -3,6 +3,10 @@ on:
   push:
     branches-ignore:
       - main
+  pull-request:
+    types:
+      - synchronize
+      - opened
   workflow_dispatch:
 jobs:
   code-quality:

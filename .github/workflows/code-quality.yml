@@ -1,7 +1,8 @@
 name: Code Quality
 on:
-  #Will check code quality for any push or pulls
-  push: {}
+  push:
+    branches-ignore:
+      - main
   workflow_dispatch:
 jobs:
   code-quality:

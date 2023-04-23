@@ -25,3 +25,4 @@ jobs:
           echo "${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}" >> commits.log
           echo "" >> commits.log
           echo "" >> commits.log
+

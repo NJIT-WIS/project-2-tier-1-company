@@ -1,0 +1,19 @@
+name: Code Quality
+on:
+  #Will check code quality for any push or pulls
+  push: {}
+  pull_request: {}
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run code analysis
+        run: npm run lint #This is what is used to actually run check

@@ -18,7 +18,7 @@ jobs:
 
       - name: Log commits
         run: |
-          git log --all --pretty=format:'Commit ID: %h%nCommit author: %an <%ae>%nCommit date and time: %ai%nCommit message: %s%n' >> commits.log
+          git log --pretty=format:'Commit ID: %h%nCommit author: %an <%ae>%nCommit date and time: %ai%nCommit message: %s%n%n' >> commits.log
           git add commits.log
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"

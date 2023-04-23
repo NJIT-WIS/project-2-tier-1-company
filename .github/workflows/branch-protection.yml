@@ -1,21 +1,32 @@
 name: Checking main <- dev only
 
 on:
-  push:
+  workflow_run:
+    workflows:
+      - 'Code Quality'
+      - 'Deploy Next.js site to Pages'
+      - 'Deploy Next.js site to Pages'
+    types:
+      - requested
+
+  pull_request:
     branches:
       - main
+    types:
+      - synchronize
 
 jobs:
-  enforceBranchProtection:
+  enforceMainBranchProtection:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Verify branch
+    - name: Verify PR source branch
       run: |
-        if [ "$GITHUB_REF" != "refs/heads/dev" ]; then
-          echo "Error: Changes can only be made to the 'dev' branch."
+        SOURCE_BRANCH=$(jq -r '.pull_request.head.ref' "$GITHUB_EVENT_PATH")
+        if [ "$SOURCE_BRANCH" != "dev" ]; then
+          echo "Error: Merging into the 'main' branch is only allowed from the 'dev' branch."
           exit 1
         fi

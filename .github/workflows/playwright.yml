@@ -3,8 +3,7 @@ name: Run Playwright and Generate a video, screenshots, and LightHouse HTML Repo
 on:
   push:
     branches:
-      - dev
-      - main
+      - dev #There is a separate workflow that only allows pushes into main from dev so only need to run playwright once
   workflow_dispatch:
 
 jobs:

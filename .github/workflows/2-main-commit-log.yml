@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Check if commits.log exists
         run: |
@@ -31,4 +33,3 @@ jobs:
           echo "${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}" >> commits.log
           echo "" >> commits.log
           echo "" >> commits.log
-

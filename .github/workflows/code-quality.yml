@@ -1,10 +1,8 @@
 name: Code Quality
 on:
-  push:
-    branches:
-      - dev #code quality checked in dev branch only as main can only accept PR from dev
+  #Will check code quality for any push or pulls
+  push: {}
   workflow_dispatch:
-
 jobs:
   code-quality:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: Log Commits on Main
+name: Log Commits to File
 
 on:
   push:
@@ -9,18 +9,19 @@ jobs:
   log_commits:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Create commits.log file if not exists
+      - name: Check if commits.log exists
         run: |
-          touch commits.log
+          if [[ ! -f "commits.log" ]]; then
+            touch commits.log
+          fi
 
-      - name: Log commits
+      - name: Log Commits
         run: |
-          git log --pretty=format:'%h %s %b' >> commits.log
-          git add commits.log
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git commit -m "Log commits for push to main branch by ${{ github.actor }}"
-          git push
+          echo "--------------------" >> commits.log
+          echo "Commit ID: ${GITHUB_SHA}" >> commits.log
+          echo "Commit author: ${GITHUB_ACTOR}" >> commits.log
+          echo "Commit date and time: $(date -u)" >> commits.log
+          echo "Commit message:" >> commits.log
+          echo "${GITHUB_EVENT_HEAD_COMMIT_MESSAGE}" >> commits.log
+          echo "" >> commits.log
+          echo "" >> commits.log

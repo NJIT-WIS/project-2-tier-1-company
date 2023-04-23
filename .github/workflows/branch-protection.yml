@@ -1,0 +1,21 @@
+name: Checking main <- dev only
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  enforceBranchProtection:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Verify branch
+      run: |
+        if [ "$GITHUB_REF" != "refs/heads/dev" ]; then
+          echo "Error: Changes can only be made to the 'dev' branch."
+          exit 1
+        fi

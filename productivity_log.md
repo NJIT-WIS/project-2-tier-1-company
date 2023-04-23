@@ -27,3 +27,4 @@
 | Design Home Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edited theme colors to match archetype |
 | Edited Logo | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/179 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edit Logo SVG |
 | OpenGraph and Twitter  | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/13 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Framework and SEO | Added tags to app.js |
+

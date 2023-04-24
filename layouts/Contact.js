@@ -20,7 +20,7 @@ const Contact = ({ data }) => {
               alt=""
             />
           </div>
-          <div>
+          <div className="my-5">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
           </div>
           <div className="animate lg:col-5">

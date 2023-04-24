@@ -24,45 +24,6 @@ const Contact = ({ data }) => {
             />
           </div>
 
-        <div className="lg:col-8 animate">
-        <form
-              method="POST"
-              action={config.params.contact_form_action}
-              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
-            >
-          <div className="my-5 text-center">
-            <p>
-              <h1>Want to keep in touch? Subscribe to our mailing list!</h1>
-            </p>
-          </div>
-          <div className="my-5">
-            <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="email"
-                >
-                  Email
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="email"
-                  placeholder="Email Address"
-                  type="email"
-                  required
-                />
-            </div>
-            <div className="my-5 text-center">
-                <input type="checkbox" id="agree" name="agree" value="agree" required/>
-                <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
-            </div>
-          <div className="my-5">
-          <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
-                Subscribe!
-            </button>} modal>
-            <div>test popup</div>
-            </Popup>
-          </div>
-          </form>
-        </div>
 
         <h1 className="text-center my-5 lg:col-8 animate">Having issues? Want to give your feedback? We'd love to hear it!</h1>
         <div className="animate lg:col-5">

@@ -27,3 +27,6 @@ draft: false
 ### Technology resources
     GitHub for software development collaboration using version control system Git
     Bootstrap, a popular open-source front-end web development framework for building responsive and mobile-first web projects.
+    Code libraries and repositories for web development projects
+    Tools and resources for optimizing website performance and search engine optimization (SEO)
+    Introduction to emerging technologies, such as machine learning, blockchain, and virtual reality, and how they can be integrated into web development.

@@ -30,7 +30,7 @@ const Contact = ({ data }) => {
           <div className="my-5 text-center">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
           </div>
-          <div className="animate my-5 justify-center">
+          <div className="animate my-5">
             <label
                   className="mb-2 block font-medium text-dark"
                   htmlFor="email"
@@ -50,7 +50,7 @@ const Contact = ({ data }) => {
                 <label for="agree">  I agree to the Terms of Service and Privacy Policy</label>
             </div>
           <div className="my-5">
-            <button className="btn btn-primary block w-50">
+            <button className="btn btn-primary block w-full">
                 Subscribe!
             </button>
           </div>

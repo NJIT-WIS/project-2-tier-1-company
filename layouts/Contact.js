@@ -134,9 +134,12 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <button className="btn btn-primary block w-full email" onClick=""> 
+              <Popup trigger={<button className="btn btn-primary block w-full email" onClick="">
                 Submit
-              </button>
+              </button>}
+              modal>
+                <div>test popup</div>
+              </Popup>
             </form>
           </div>
 

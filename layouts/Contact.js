@@ -60,7 +60,7 @@ const Contact = ({ data }) => {
         </div>
 
         <h1 className="text-center my-5 lg:col-8">Having issues? Want to give your feedback? We'd love to hear it!</h1>
-        
+
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"
@@ -122,7 +122,7 @@ const Contact = ({ data }) => {
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
               <button className="btn btn-primary block w-full">
-                Submit Now
+                Submit
               </button>
             </form>
           </div>

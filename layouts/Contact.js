@@ -8,18 +8,6 @@ const Contact = ({ data }) => {
 
   return (
     <section className="section">
-      <Banner title={title} />
-      <div className="container">
-        <div className="section row items-center justify-center">
-          <div className="animate lg:col-5">
-            <ImageFallback
-              className="mx-auto lg:pr-10"
-              src="/images/vectors/contact.png"
-              width={497}
-              height={397}
-              alt=""
-            />
-          </div>
 
         <div className="lg:col-8">
         <form
@@ -59,6 +47,18 @@ const Contact = ({ data }) => {
           </form>
         </div>
 
+        <Banner title={title} />
+      <div className="container">
+        <div className="section row items-center justify-center">
+          <div className="animate lg:col-5">
+            <ImageFallback
+              className="mx-auto lg:pr-10"
+              src="/images/vectors/contact.png"
+              width={497}
+              height={397}
+              alt=""
+            />
+          </div>
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"

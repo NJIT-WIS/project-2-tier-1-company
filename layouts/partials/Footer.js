@@ -14,6 +14,49 @@ const Footer = () => {
   const { email, phone, location } = config.contact_info;
   return (
     <footer className="">
+      
+    <div className="my-2 row items-center justify-center">
+      <div className="lg:col-6 animate">
+        <form
+              method="POST"
+              action={config.params.contact_form_action}
+              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
+            >
+          <div className="my-5 text-center">
+            <p>
+              <h2>Want to keep in touch? Subscribe to our mailing list!</h2>
+            </p>
+          </div>
+          <div className="my-5">
+            <label
+                  className="mb-2 block font-medium text-dark"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  className="form-input w-full"
+                  name="email"
+                  placeholder="Email Address"
+                  type="email"
+                  required
+                />
+            </div>
+            <div className="my-5 text-center">
+                <input type="checkbox" id="agree" name="agree" value="agree" required/>
+                <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
+            </div>
+          <div className="my-5">
+          <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
+                Subscribe!
+            </button>} modal>
+            <div>test popup</div>
+            </Popup>
+          </div>
+          </form>
+        </div>
+      </div>
+
       <div className="container">
         <div className="row border-y border-border py-12">
           <div className="animate md:col-6 lg:col-3">
@@ -56,48 +99,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-    <div className="section row items-center justify-center">
-      <div className="lg:col-8 animate">
-        <form
-              method="POST"
-              action={config.params.contact_form_action}
-              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
-            >
-          <div className="my-5 text-center">
-            <p>
-              <h2>Want to keep in touch? Subscribe to our mailing list!</h2>
-            </p>
-          </div>
-          <div className="my-5">
-            <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="email"
-                >
-                  Email
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="email"
-                  placeholder="Email Address"
-                  type="email"
-                  required
-                />
-            </div>
-            <div className="my-5 text-center">
-                <input type="checkbox" id="agree" name="agree" value="agree" required/>
-                <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
-            </div>
-          <div className="my-5">
-          <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
-                Subscribe!
-            </button>} modal>
-            <div>test popup</div>
-            </Popup>
-          </div>
-          </form>
-        </div>
-      </div>
 
         {/* copyright */}
         <div className=" py-6 text-center">

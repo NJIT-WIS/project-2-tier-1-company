@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="">
       
     <div className="my-2 row items-center justify-center">
-      <div className="lg:col-8 animate">
+      <div className="lg:col-6 animate">
         <form
               method="POST"
               action={config.params.contact_form_action}

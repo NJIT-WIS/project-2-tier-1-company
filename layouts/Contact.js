@@ -52,7 +52,7 @@ const Contact = ({ data }) => {
                 <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
             </div>
           <div className="my-5">
-            <button className="btn btn-primary block w-full">
+            <button className="btn btn-primary block w-full" onClick="">
                 Subscribe!
             </button>
           </div>
@@ -129,7 +129,7 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <button className="btn btn-primary block w-full">
+              <button className="btn btn-primary block w-full" onClick=""> 
                 Submit
               </button>
             </form>

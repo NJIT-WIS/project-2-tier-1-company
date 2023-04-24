@@ -22,6 +22,19 @@ const Contact = ({ data }) => {
           </div>
           <div className="my-5">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
+            <label
+                  className="mb-2 block font-medium text-dark"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  className="form-input w-full"
+                  name="email"
+                  placeholder="Email Address"
+                  type="email"
+                  required
+                />
           </div>
           <div className="animate lg:col-5">
             <form

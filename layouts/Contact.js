@@ -20,7 +20,8 @@ const Contact = ({ data }) => {
               alt=""
             />
           </div>
-          <div className="lg:col-10">
+
+          <div className="section row items-center justify-center container">
           <div className="my-5">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
           </div>
@@ -39,11 +40,11 @@ const Contact = ({ data }) => {
                   required
                 />
                 </div>
-              <div className="my-5">
+              <div className="my-5 justify-center">
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
                 <label for="agree">  I agree to the Terms of Service and Privacy Policy</label>
             </div>
-          <div className="lg:col-4 my-5">
+          <div className="lg:col-4 my-5 justify-center">
             <button className="btn btn-primary block w-full lg:col-4">
                 Subscribe!
             </button>

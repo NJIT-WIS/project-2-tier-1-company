@@ -49,7 +49,7 @@ const Contact = ({ data }) => {
             </div>
             <div className="my-5 text-center">
                 <input type="checkbox" id="agree" name="agree" value="agree" required/>
-                <label htmlFor="agree">  I agree to the Terms of Service and Privacy Policy</label>
+                <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
             </div>
           <div className="my-5">
             <button className="btn btn-primary block w-full">
@@ -58,6 +58,8 @@ const Contact = ({ data }) => {
           </div>
           </form>
         </div>
+
+        <h1 className="text-center my-5 lg:col-8">Having issues? Want to give your feedback? We'd love to hear it!</h1>
 
           <div className="animate lg:col-5 my-5">
             <form
@@ -120,7 +122,7 @@ const Contact = ({ data }) => {
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
               <button className="btn btn-primary block w-full">
-                Submit Now
+                Submit
               </button>
             </form>
           </div>

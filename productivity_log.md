@@ -29,3 +29,5 @@
 | OpenGraph and Twitter | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/13 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Framework and SEO | Added tags to app.js |
 | Automation and Continuous integration | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/32 | Completed | SarangAP | 4/22/2023 | 4/23/2023 | Testing and documentation | Modified existing workflows, added code quality check and main branch protection|
 | Playwright testing | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/21 | In Progress | SarangAP | 4/23/2023 | TBD | Testing and documentation | Added test for links and images loading|
+| Contacts Page | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/33 | In Progress | eyh3 | 4/24/2023 | TBD | User Engagement | Added email integration into the Contacts page|
+

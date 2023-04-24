@@ -20,6 +20,9 @@ draft: false
 
 ### Professional development resources
     Community forum or online support to assist learners with any questions or challenges they may encounter while taking the classes.
+    Web development conferences and events calendar
+    Professional networking opportunities for web developers
+    Continuing education courses to help web developers stay up-to-date with the latest web development technologies and trends
 
 ### Technology resources
     GitHub for software development collaboration using version control system Git

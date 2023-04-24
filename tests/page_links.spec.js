@@ -7,32 +7,22 @@ const { pages } = require(path.join(process.cwd(), 'tests', 'pages.json'));
 
 const TIMEOUT = 30000;
 
-async function checkAllImages(pageUrl) {
+async function checkClickableLink(pageUrl) {
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto(pageUrl, { timeout: TIMEOUT });
-
-  const allImages = await page.$$('img');
-  const undefinedImages = [];
-
-  for (const image of allImages) {
-    const imageSrc = await image.getAttribute('src');
-
-    // Check if the image source is undefined
-    if (!imageSrc) {
-      undefinedImages.push(image);
-    }
-  }
-
+  const linkCount = await page.evaluate(() => {
+    const links = Array.from(document.querySelectorAll('a'));
+    return links.filter(link => link.href !== '' && !link.getAttribute('disabled')).length;
+  });
   await browser.close();
-
-  expect(undefinedImages).toEqual([]);
+  expect(linkCount).toBeGreaterThan(0);
 }
 
 pages.forEach((page) => {
-  test(`Page "${page.path}" should have all images loaded`, async ({}) => {
-    console.log(page.path);
+  test(`Page "${page.path}" should have clickable link`, async ({}) => {
+    console.log(page.path)
     const pageUrl = `${config.use.baseURL}${page.path}`;
-    await checkAllImages(pageUrl);
+    await checkClickableLink(pageUrl);
   });
 });

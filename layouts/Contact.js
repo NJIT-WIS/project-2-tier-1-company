@@ -1,6 +1,9 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
 import ImageFallback from "./components/ImageFallback";
+import React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -52,9 +55,11 @@ const Contact = ({ data }) => {
                 <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
             </div>
           <div className="my-5">
-            <button className="btn btn-primary block w-full" onClick="">
+          <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
                 Subscribe!
-            </button>
+            </button>} modal>
+            <div>test popup</div>
+            </Popup>
           </div>
           </form>
         </div>
@@ -129,9 +134,12 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <button className="btn btn-primary block w-full" onClick=""> 
+              <Popup trigger={<button className="btn btn-primary block w-full email" onClick="">
                 Submit
-              </button>
+              </button>}
+              modal>
+                <div>test popup</div>
+              </Popup>
             </form>
           </div>
 

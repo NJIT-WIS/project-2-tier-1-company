@@ -14,6 +14,9 @@ draft: false
 ### Career Resources
     Freelancer projects for web development and other related fields
     Web development job opportunities in startups and small businesses
+    Access to a network of potential employers or clients for web development projects
+    Career counseling and mentorship for individuals interested in pursuing a career in web development
+    Job interview preparation and resume writing workshops
 
 ### Professional development resources
     Community forum or online support to assist learners with any questions or challenges they may encounter while taking the classes.

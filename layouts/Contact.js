@@ -14,17 +14,6 @@ const Contact = ({ data }) => {
       <Banner title={title} />
       <div className="container">
         <div className="section row items-center justify-center">
-          <div className="animate lg:col-5">
-            <ImageFallback
-              className="mx-auto lg:pr-10"
-              src="/images/vectors/contact.png"
-              width={497}
-              height={397}
-              alt=""
-            />
-          </div>
-
-
         <h1 className="text-center my-5 lg:col-8 animate">Having issues? Want to give your feedback? We'd love to hear it!</h1>
         <div className="animate lg:col-5">
             <ImageFallback

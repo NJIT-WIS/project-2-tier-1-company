@@ -28,7 +28,9 @@ const Contact = ({ data }) => {
               className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
             >
           <div className="my-5 text-center">
-            <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
+            <p>
+              <h1>Want to keep in touch? Subscribe to our mailing list!</h1>
+            </p>
           </div>
           <div className="animate my-5">
             <label
@@ -47,7 +49,7 @@ const Contact = ({ data }) => {
             </div>
             <div className="my-5 text-center">
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
-                <label for="agree">  I agree to the Terms of Service and Privacy Policy</label>
+                <label htmlFor="agree">  I agree to the Terms of Service and Privacy Policy</label>
             </div>
           <div className="my-5">
             <button className="btn btn-primary block w-full">

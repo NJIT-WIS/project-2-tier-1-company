@@ -11,9 +11,10 @@ draft: false
 ### Career Resources
     Freelancer projects for web development and other related fields
     Web development job opportunities in startups and small businesses
-    
+
 ### Professional development resources
-Test
+    Community forum or online support to assist learners with any questions or challenges they may encounter while taking the classes.
 
 ### Technology resources
-Test
+    GitHub for software development collaboration using version control system Git
+    Bootstrap, a popular open-source front-end web development framework for building responsive and mobile-first web projects.

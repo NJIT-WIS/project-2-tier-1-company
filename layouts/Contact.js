@@ -38,7 +38,7 @@ const Contact = ({ data }) => {
                   required
                 />
           </div>
-          <div className="my-5">
+          <div className="my-5 lg:col-10">
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
                 <label for="agree"> I agree to the Terms of Service and Privacy Policy</label>
             </div>

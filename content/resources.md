@@ -7,6 +7,9 @@ draft: false
     Classes and tutorials related to web development
     Instruction on HTML, CSS, JavaScript, web development frameworks, and web design
     Interactive projects, assignments, and assessments to practice and apply what is learned
+    Instruction on server-side web development, such as PHP, Node.js, and Ruby on Rails
+    Tutorials on using popular content management systems (CMS) such as WordPress, Drupal, and Joomla
+    Introduction to web hosting and server management, including cloud hosting services like AWS and Azure
 
 ### Career Resources
     Freelancer projects for web development and other related fields

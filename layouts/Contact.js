@@ -22,6 +22,8 @@ const Contact = ({ data }) => {
           </div>
           <div className="my-5">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
+          </div>
+          <div className="my-5 lg:col-5">
             <label
                   className="mb-2 block font-medium text-dark"
                   htmlFor="email"

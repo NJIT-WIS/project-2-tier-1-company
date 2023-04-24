@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-    <div className="section row items-center justify-center">
+    <div className="my-2 row items-center justify-center">
       <div className="lg:col-8 animate">
         <form
               method="POST"

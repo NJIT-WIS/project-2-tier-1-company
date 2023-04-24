@@ -9,8 +9,9 @@ draft: false
     Interactive projects, assignments, and assessments to practice and apply what is learned
 
 ### Career Resources
-Test
-
+    Freelancer projects for web development and other related fields
+    Web development job opportunities in startups and small businesses
+    
 ### Professional development resources
 Test
 

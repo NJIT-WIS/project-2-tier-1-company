@@ -49,7 +49,7 @@ const Contact = ({ data }) => {
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
                 <label for="agree">  I agree to the Terms of Service and Privacy Policy</label>
             </div>
-          <div className="my-5 text-center justify-content-center">
+          <div className="my-5">
             <button className="btn btn-primary block w-50">
                 Subscribe!
             </button>

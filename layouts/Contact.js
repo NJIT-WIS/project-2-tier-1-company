@@ -37,11 +37,10 @@ const Contact = ({ data }) => {
                   type="email"
                   required
                 />
-          </div>
-          <div className="my-5 lg:col-10">
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
                 <label for="agree">I agree to the Terms of Service and Privacy Policy</label>
           </div>
+
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"

@@ -21,7 +21,7 @@ const Contact = ({ data }) => {
             />
           </div>
 
-        <div className="lg:col-8">
+        <div className="lg:col-8 animate">
         <form
               method="POST"
               action={config.params.contact_form_action}
@@ -59,8 +59,17 @@ const Contact = ({ data }) => {
           </form>
         </div>
 
-        <h1 className="text-center my-5 lg:col-8">Having issues? Want to give your feedback? We'd love to hear it!</h1>
+        <h1 className="text-center my-5 lg:col-8 animate">Having issues? Want to give your feedback? We'd love to hear it!</h1>
 
+        <div className="animate lg:col-5">
+            <ImageFallback
+              className="mx-auto lg:pr-10"
+              src="/images/vectors/contact.png"
+              width={497}
+              height={397}
+              alt=""
+            />
+          </div>
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"

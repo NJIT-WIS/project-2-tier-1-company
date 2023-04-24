@@ -21,7 +21,12 @@ const Contact = ({ data }) => {
             />
           </div>
 
-        <div className="lg:col-10">
+        <div className="lg:col-8">
+        <form
+              method="POST"
+              action={config.params.contact_form_action}
+              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
+            >
           <div className="my-5 text-center">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
           </div>
@@ -44,11 +49,12 @@ const Contact = ({ data }) => {
                 <input type="checkbox" id="agree" name="agree" value="agree"/>
                 <label for="agree">  I agree to the Terms of Service and Privacy Policy</label>
             </div>
-          <div className="my-5 text-center">
+          <div className="my-5 text-center justify-center">
             <button className="btn btn-primary block w-50">
                 Subscribe!
             </button>
           </div>
+          </form>
         </div>
 
           <div className="animate lg:col-5 my-5">

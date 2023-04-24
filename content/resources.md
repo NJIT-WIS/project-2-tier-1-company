@@ -3,6 +3,8 @@ title: "Resources"
 layout: "resources"
 draft: false
 ---
+# On the fence on mywebclass.org? Here are some resources that we provide to all users!
+
 ### Learning Resources
 - Classes and tutorials related to web development
 - Instruction on HTML, CSS, JavaScript, web development frameworks, and web design

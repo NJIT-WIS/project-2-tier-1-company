@@ -23,7 +23,7 @@ const Contact = ({ data }) => {
           <div className="my-5">
             <p><h1>Want to keep in touch? Subscribe to our mailing list!</h1></p>
           </div>
-          <div className="my-5 lg:col-5">
+          <div className="my-5 lg:col-10">
             <label
                   className="mb-2 block font-medium text-dark"
                   htmlFor="email"
@@ -38,7 +38,7 @@ const Contact = ({ data }) => {
                   required
                 />
           </div>
-          <div className="animate lg:col-5">
+          <div className="animate lg:col-5 my-5">
             <form
               method="POST"
               action={config.params.contact_form_action}

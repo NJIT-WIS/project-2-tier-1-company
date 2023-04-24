@@ -20,7 +20,46 @@ const Contact = ({ data }) => {
               alt=""
             />
           </div>
-          <div className="animate lg:col-5">
+
+        <div className="lg:col-8">
+        <form
+              method="POST"
+              action={config.params.contact_form_action}
+              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
+            >
+          <div className="my-5 text-center">
+            <p>
+              <h1>Want to keep in touch? Subscribe to our mailing list!</h1>
+            </p>
+          </div>
+          <div className="my-5">
+            <label
+                  className="mb-2 block font-medium text-dark"
+                  htmlFor="email"
+                >
+                  Email
+                </label>
+                <input
+                  className="form-input w-full"
+                  name="email"
+                  placeholder="Email Address"
+                  type="email"
+                  required
+                />
+            </div>
+            <div className="my-5 text-center">
+                <input type="checkbox" id="agree" name="agree" value="agree" required/>
+                <label htmlFor="agree">  I agree to the Terms of Service and Privacy Policy</label>
+            </div>
+          <div className="my-5">
+            <button className="btn btn-primary block w-full">
+                Subscribe!
+            </button>
+          </div>
+          </form>
+        </div>
+
+          <div className="animate lg:col-5 my-5">
             <form
               method="POST"
               action={config.params.contact_form_action}
@@ -85,6 +124,7 @@ const Contact = ({ data }) => {
               </button>
             </form>
           </div>
+
         </div>
       </div>
     </section>

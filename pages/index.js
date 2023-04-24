@@ -44,7 +44,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           },
           {
             y: 0,
-            opacity: 1,
+            opacity: 1, // landing image
             duration: 0.5,
           },
           ">-.5"
@@ -288,7 +288,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
               </div>
             </div>
-            <div className="bg-theme absolute top-0 left-0 w-full">
+            <div className="bg-theme bg-theme-light absolute top-0 left-0 w-full">
               <Circle
                 className="left-[10%] top-12"
                 width={32}
@@ -439,7 +439,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                               "p",
                               "text-[17px] lg:text-lg text-body mt-4 md:mt-5 xl:mt-8"
                             )}
-                            <div className="mt-7 inline-block rounded-md bg-body p-7 shadow-[0_10px_50px_rgba(0,0,0,.08)] md:mt-5 lg:mt-8 xl:mt-5">
+                            <div className="mt-7 inline-block rounded-md bg-body p-7 shadow-[0_10px_50px_rgba(0,0,0,.08)] md:mt-5 lg:mt-8 xl:mt-5"> //*
                               <ImageFallback
                                 className="mx-auto rounded-full"
                                 src={item.avatar}

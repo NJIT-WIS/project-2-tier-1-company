@@ -58,7 +58,7 @@ const Contact = ({ data }) => {
           </div>
           </form>
         </div>
-
+        <h1 className="text-center my-5">Having issues? Want to give your feedback? We'd love to hear it!</h1>
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"

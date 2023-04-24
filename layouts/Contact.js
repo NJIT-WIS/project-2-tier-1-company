@@ -21,7 +21,7 @@ const Contact = ({ data }) => {
             />
           </div>
 
-        <div className="lg:col-8">
+        <div className="lg:col-8 animate">
         <form
               method="POST"
               action={config.params.contact_form_action}
@@ -52,15 +52,23 @@ const Contact = ({ data }) => {
                 <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
             </div>
           <div className="my-5">
-            <button className="btn btn-primary block w-full">
+            <button className="btn btn-primary block w-full" onClick="">
                 Subscribe!
             </button>
           </div>
           </form>
         </div>
 
-        <h1 className="text-center my-5 lg:col-8">Having issues? Want to give your feedback? We'd love to hear it!</h1>
-
+        <h1 className="text-center my-5 lg:col-8 animate">Having issues? Want to give your feedback? We'd love to hear it!</h1>
+        <div className="animate lg:col-5">
+            <ImageFallback
+              className="mx-auto lg:pr-10"
+              src="/images/vectors/contact.png"
+              width={497}
+              height={397}
+              alt=""
+            />
+          </div>
           <div className="animate lg:col-5 my-5">
             <form
               method="POST"
@@ -121,7 +129,7 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <button className="btn btn-primary block w-full">
+              <button className="btn btn-primary block w-full" onClick=""> 
                 Submit
               </button>
             </form>

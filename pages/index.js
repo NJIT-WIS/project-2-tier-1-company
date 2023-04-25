@@ -44,7 +44,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           },
           {
             y: 0,
-            opacity: 1,
+            opacity: 1, // landing image
             duration: 0.5,
           },
           ">-.5"
@@ -288,7 +288,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
               </div>
             </div>
-            <div className="bg-theme absolute top-0 left-0 w-full">
+            <div className="bg-theme bg-theme-light absolute top-0 left-0 w-full">
               <Circle
                 className="left-[10%] top-12"
                 width={32}

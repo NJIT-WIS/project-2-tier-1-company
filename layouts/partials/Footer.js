@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div>
         <p>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <a href="http://jigsaw.w3.org/css-validator/">
             <img width={88} height={31}
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
         alt="Valid CSS!" />

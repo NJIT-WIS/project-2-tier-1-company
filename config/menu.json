@@ -20,12 +20,16 @@
         {
           "name": "Privacy Policy",
           "url": "/privacy-policy"
-        }
-      ]
-    },
-    {
+        },
+        {
       "name": "Resources",
       "url": "/resources"
+      },
+        {
+      "name": "Services",
+      "url": "/services"
+    }
+      ]
     },
     {
       "name": "Services",

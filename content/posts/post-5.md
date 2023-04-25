@@ -18,4 +18,4 @@ But it wasn't just me who enjoyed using mywebclass.org. Here are a couple of quo
 
 <Blockquote name="John Baker">"mywebclass.org is awesome! I love how it has a range of courses, quizzes, and assignments that helped me test my knowledge and track my progress."</Blockquote>
 
-<Blockquote name="Emily Wong">"Using mywebclass.org has been a great experience for me. It's user-friendly and makes learning coding a lot more fun and engaging." - said Emily Wong</Blockquote>
+<Blockquote name="Emily Wong">"Using mywebclass.org has been a great experience for me. It's user-friendly and makes learning coding a lot more fun and engaging."</Blockquote>

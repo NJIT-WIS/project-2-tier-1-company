@@ -22,4 +22,13 @@
 | Images not loading | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/113 | Completed | SarangAP | 4/20/2023 | 4/22/2023 | Design and Content | Some immages were not loading correctly across pages |
 | Completed All Pages / Sitemap | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/127 | Completed | eyh3 | 4/21/2023 | 4/212023 | Deployment | Created all pages with filler content |
 | Blog Content | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/29 | Completed | eyh3 | 4/21/2023 | 4/22/2023 | Analytics and Blog | Add blog content |
+| Add theme | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/177 | Completed | SarangAP | 4/18/2023 | 4/18/2023 | Design and Content | Theme addition task began on 4/18 but issue formerly created on 4/22 |
 | Re-Add Google Analytics | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/174 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Analytics and Blog | Will provide analytics for every page |
+| Design Home Page Content | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edited theme colors to match archetype |
+| Edited Logo | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/179 | Completed | km776 | 4/22/2023 | 4/22/2023 | Design and Content | Edit Logo SVG |
+| OpenGraph and Twitter | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/13 | Completed | SarangAP | 4/22/2023 | 4/22/2023 | Framework and SEO | Added tags to app.js |
+| Automation and Continuous integration | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/32 | Completed | SarangAP | 4/22/2023 | 4/23/2023 | Testing and documentation | Modified existing workflows, added code quality check and main branch protection|
+| Playwright testing | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/21 | In Progress | SarangAP | 4/23/2023 | TBD | Testing and documentation | Added test for links and images loading|
+| Contacts Page | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/33 | In Progress | eyh3 | 4/24/2023 | TBD | User Engagement | Added email integration into the Contacts page|
+| Backup/Recovery Plan | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/35 | Completed | SarangAP | 4/23/2023 | 4/24/2023 | Quality Assurance | Added .md file with our backup/recovery plan |
+| Implement Favicon | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/14 | Completed | km776 | 4/24/2023 | 4/24/2023 | Framework and SEO | Changed and customized favicon to match aforementioned archetype |

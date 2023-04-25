@@ -1,6 +1,9 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
 import ImageFallback from "./components/ImageFallback";
+import React from 'react';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -11,7 +14,8 @@ const Contact = ({ data }) => {
       <Banner title={title} />
       <div className="container">
         <div className="section row items-center justify-center">
-          <div className="animate lg:col-5">
+        <h1 className="text-center my-5 lg:col-8 animate">Having issues? Want to give your feedback? We'd love to hear it!</h1>
+        <div className="animate lg:col-5">
             <ImageFallback
               className="mx-auto lg:pr-10"
               src="/images/vectors/contact.png"
@@ -20,7 +24,7 @@ const Contact = ({ data }) => {
               alt=""
             />
           </div>
-          <div className="animate lg:col-5">
+          <div className="animate lg:col-5 my-5">
             <form
               method="POST"
               action={config.params.contact_form_action}
@@ -80,11 +84,15 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <button className="btn btn-primary block w-full">
-                Submit Now
-              </button>
+              <Popup trigger={<button className="btn btn-primary block w-full email" onClick="">
+                Submit
+              </button>}
+              modal>
+                <div>test popup</div>
+              </Popup>
             </form>
           </div>
+
         </div>
       </div>
     </section>

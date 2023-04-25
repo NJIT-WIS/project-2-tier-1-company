@@ -12,7 +12,7 @@ As a small business owner, I know how important it is to have a strong online pr
 
 Mywebclass.org offered a range of courses on web development, including topics such as HTML, CSS, and JavaScript. As someone with no prior experience in coding, I appreciated the platform's user-friendly interface and step-by-step tutorials, which helped me learn the basics of web development quickly.
 
-<Blockquote name="cope">"Mywebclass.org was a game-changer for my business. The platform's comprehensive courses and user-friendly interface helped me learn the basics of web development quickly, and build a website that effectively showcased my business. I'm so grateful for this platform and the impact it has had on my business."</Blockquote>
+<Blockquote>"Mywebclass.org was a game-changer for my business. The platform's comprehensive courses and user-friendly interface helped me learn the basics of web development quickly, and build a website that effectively showcased my business. I'm so grateful for this platform and the impact it has had on my business."</Blockquote>
 
 Overall, mywebclass.org has been an invaluable resource for small business owners like me who are looking to improve their online presence. Its comprehensive courses, step-by-step tutorials, and user-friendly interface make it the perfect platform for anyone looking to learn web development and create a website that effectively reflects their brand and business goals.
 

@@ -3,7 +3,31 @@
       {
         "path": "/",
         "title": "MyWebClass.org"
+      },
+      {
+        "path": "/about",
+        "title": "About"
+      },
+      {
+        "path": "/posts",
+        "title": "Blog"
+      },
+      {
+        "path": "/terms-policy",
+        "title": "Terms & Conditions"
+      },
+      {
+        "path": "/resources",
+        "title": "Resources"
+      },
+      {
+        "path": "/services",
+        "title": "Services"
+      },
+      {
+        "path": "/contact",
+        "title": "Contact"
       }
     ]
 }
- 
+

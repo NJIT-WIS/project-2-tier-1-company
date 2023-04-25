@@ -88,7 +88,7 @@ const Contact = ({ data }) => {
                 Submit
               </button>}
               modal>
-                <div>test popup</div>
+                <div>Message Sent!</div>
               </Popup>
             </form>
           </div>

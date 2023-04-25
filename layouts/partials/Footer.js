@@ -28,7 +28,7 @@ const Footer = () => {
             <div>
         <p>
           <a href="http://jigsaw.w3.org/css-validator/">
-            <img width={88} height={31}
+            <img width={88} height={31} className="my-5"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
         alt="Valid CSS!" />
           </a>

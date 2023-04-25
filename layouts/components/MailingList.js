@@ -26,9 +26,9 @@ export default function NewsLetterSignUpForm() {
 
   return(
     <form
+    onSubmit={subscribeUser}
     action={config.params.contact_form_action}
     className="contact-form"
-    onSubmit={subscribeUser}
   >
 <h3 className="h5">Mailing List</h3>
 <div className="my-4">

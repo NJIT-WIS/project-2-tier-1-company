@@ -37,3 +37,4 @@
 | Modern layout | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/19 | Completed | km776 | 4/24/2023 | 4/25/2023 | Design And Content | Designed a visually appealing and modern layout, including a hero section and consistent branding using brand archetypes |
 | Responsive Design | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/18 | Completed | km776 | 4/24/2023 | 4/25/2023 | Design And Content | Implement responsive design for all devices |
 | Mailchimp Form | 8 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/33 | In Progress | eyh3 | 4/25/2023 | 4/25/2023 | User Engagement | Link the MailChimp form to the MailChimp API |
+| CSS Validation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/34 | Complete | eyh3 | 4/25/2023 | 4/25/2023 | Quality Assurance | Used W3C validator to validate the CSS files

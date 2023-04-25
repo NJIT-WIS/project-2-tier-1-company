@@ -18,14 +18,18 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
-    },
-    {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
       "name": "Resources",
       "url": "/resources"
+      },
+        {
+      "name": "Services",
+      "url": "/services"
+    }
+      ]
     },
     {
       "name": "Services",
@@ -46,8 +50,8 @@
       "url": "/posts"
     },
     {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
     }
   ]
 }

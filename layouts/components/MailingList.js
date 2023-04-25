@@ -53,10 +53,12 @@ export default function NewsLetterSignUpForm() {
       <input type="checkbox" id="agree" name="agree" value="agree" required/>
       <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
   </div>
-<div className="my-3">
-<button type="submit" name="subscribe" className="btn btn-primary block w-full" value="">
+<div className="my-3"> 
+    <Popup trigger={<button type="submit" name="subscribe" className="btn btn-primary block w-full" value="">
       Subscribe!
-  </button>
+  </button>} modal>    
+  <span> Thanks for subscribing! </span> 
+  </Popup>
 </div>
 </form>
 );

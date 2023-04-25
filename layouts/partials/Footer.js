@@ -14,8 +14,11 @@ const Footer = () => {
   const { email, phone, location } = config.contact_info;
   return (
     <footer className="">
+      <div className="container">
+        <div className="row border-y border-border py-12">
+          <div className="animate md:col-6 lg:col-3">
       
-    <div className="my-2 row items-center justify-center">
+          <div className="my-2 row items-center justify-center">
       <div className="lg:col-6 animate">
         <form
               method="POST"
@@ -23,9 +26,7 @@ const Footer = () => {
               className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
             >
           <div className="my-5 text-center">
-            <p>
-              <h2>Want to keep in touch? Subscribe to our mailing list!</h2>
-            </p>
+            <p>Want to keep in touch? Subscribe to our mailing list!</p>
           </div>
           <div className="my-5">
             <label
@@ -56,12 +57,6 @@ const Footer = () => {
           </form>
         </div>
       </div>
-
-      <div className="container">
-        <div className="row border-y border-border py-12">
-          <div className="animate md:col-6 lg:col-3">
-            <Logo />
-            {markdownify(footer_content, "p", "mt-3")}
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Socials</h3>

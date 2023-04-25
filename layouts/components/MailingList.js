@@ -2,12 +2,11 @@ import { useRef } from 'react';
 import config from "@config/config.json";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import SubscribeUser from './SubscribeUser';
 
 export default function NewsLetterSignUpForm() {
   const inputRef = useRef(null);
 
-  const SubscribeUser = async (e) => {
+  const subscribeUser = async (e) => {
     e.preventDefault();
 
     // this is where your mailchimp request is made
@@ -30,12 +29,12 @@ export default function NewsLetterSignUpForm() {
     method="POST"
     action={config.params.contact_form_action}
     className="contact-form"
-    onSubmit={SubscribeUser}
+    onSubmit={subscribeUser}
   >
 <h3 className="h5">Mailing List</h3>
 <div className="my-4">
   <label
-        className="mb-2 font-medium text-dark"
+        className="mb-2 font-medium text-dark form__label"
         htmlFor="email"
       >
         Email
@@ -45,6 +44,7 @@ export default function NewsLetterSignUpForm() {
         name="email"
         placeholder="Email Address"
         type="email"
+        id="email"
         ref={inputRef}
         required
       />

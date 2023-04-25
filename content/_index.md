@@ -71,37 +71,37 @@ testimonial:
   subtitle: DON'T TAKE OUR WORD FOR IT
   description: See what our clients have to say!
   list:
-    - author: David Cameron
+    - author: Samantha Roberts
       avatar: /images/user-img/01.jpg
-      profession: CEO, Nexuspay
+      profession: Physician, Sunshine Medical Group
       content: I've finally found an online learning platform that's exclusively tailored to my needs at MyWebClass. 
-    - author: David Cameron
+    - author: Olivia Adams
       avatar: /images/user-img/02.jpg
-      profession: CEO, Nexuspay
+      profession: Financial Analyst, Fortune Investments
       content: I can't say enough good things about MyWebClass! The courses are engaging, the instructors are knowledgeable, and the platform is user-friendly. 
-    - author: David Cameron
+    - author: Sarah Johnson
       avatar: /images/user-img/03.jpg
-      profession: CEO, Nexuspay
+      profession: Architect, Studio DesignWorks
       content: MyWebClass has been a game-changer for me. The wide range of courses available has allowed me to explore new subjects and expand my horizons. 
     - author: David Cameron
       avatar: /images/user-img/04.png
-      profession: CEO, Nexuspay
+      profession: Software Developer, CodeCraft Solutions
       content: The connections I've built with like-minded learners have been amazing, and the personalized courses have helped me achieve my learning goals in a way that's truly meaningful to me.
-    - author: David Cameron
+    - author: Jamila Ahmed
       avatar: /images/user-img/05.jpg
-      profession: CEO, Nexuspay
+      profession: Marketing Manager, Stellar Brands Inc.
       content: I've gained valuable skills and knowledge that have helped me advance in my career.
-    - author: David Cameron
+    - author: Maria Santos
       avatar: /images/user-img/06.jpg
-      profession: CEO, Nexuspay
+      profession: Civil Engineer, Urban Infrastructure Solutions
       content: The interactive learning experience and supportive community have made it a truly enriching journey.
-    - author: David Cameron
+    - author: Fatima Khan
       avatar: /images/user-img/07.jpg
-      profession: CEO, Nexuspay
+      profession: Financial Planner, Wealth Management Partners
       content: MyWebClass offers top-notch courses with knowledgeable instructors. I've learned valuable skills that have boosted my confidence and opened up new opportunities.
-    - author: David Cameron
+    - author: Ethan Turner
       avatar: /images/user-img/08.jpg
-      profession: CEO, Nexuspay
+      profession: Investment Banker, Apex Capital Partners
       content: MyWebClass has helped me stay ahead in my industry. The practical courses and expert instructors have equipped me with valuable skills that I can apply in my work.
 
 ---

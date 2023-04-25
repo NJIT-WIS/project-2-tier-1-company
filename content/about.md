@@ -6,7 +6,7 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re MyWebClass, and we're to help.
+  title: Hello, we’re MyWebClass, and we're to help.
   content: Welcome to MyWebClass, where learning meets connection. Our exclusive online learning platform offers tailored courses designed to empower you with practical skills, knowledge, and connections to thrive in today's dynamic world. Join our vibrant community of learners and unlock your full potential with MyWebClass.
   image: /images/about/01.jpg
 
@@ -53,8 +53,6 @@ clients:
     - /images/brands/04-colored.png
     - /images/brands/05-colored.png
     - /images/brands/06-colored.png
-
-
 
 ## office
 our_office:

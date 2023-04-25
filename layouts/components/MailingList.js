@@ -2,11 +2,12 @@ import { useRef } from 'react';
 import config from "@config/config.json";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import SubscribeUser from './SubscribeUser';
 
 export default function NewsLetterSignUpForm() {
   const inputRef = useRef(null);
 
-  const subscribeUser = async (e) => {
+  const SubscribeUser = async (e) => {
     e.preventDefault();
 
     // this is where your mailchimp request is made
@@ -29,6 +30,7 @@ export default function NewsLetterSignUpForm() {
     method="POST"
     action={config.params.contact_form_action}
     className="contact-form"
+    onSubmit={SubscribeUser}
   >
 <h3 className="h5">Mailing List</h3>
 <div className="my-4">
@@ -43,6 +45,7 @@ export default function NewsLetterSignUpForm() {
         name="email"
         placeholder="Email Address"
         type="email"
+        ref={inputRef}
         required
       />
   </div>
@@ -51,7 +54,7 @@ export default function NewsLetterSignUpForm() {
       <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
   </div>
 <div className="my-3">
-<Popup trigger={<button className="btn btn-primary block w-full" onClick="">
+<Popup trigger={<button type="submit" className="btn btn-primary block w-full" onClick="">
       Subscribe!
   </button>} modal>
   <div>test popup</div>

@@ -45,6 +45,6 @@ Our plan includes the following steps:
     - Checks are in place to ensure that PRs to main branch can only be made from dev
 
 
-By implementing this comprehensive backup and recovery plan, we ensure the safety and availability of our Next.js website hosted on a GitHub repository 
-and GitHub Pages,and minimize the risk of data loss. We understand the importance of regularly reviewing and updating our plan to adapt to changes in
-ourwebsite's requirements and infrastructure.
+By implementing this comprehensive backup and recovery plan, we ensure the safety and availability of our Next.js website hosted on GitHub and deployed via
+GitHub Pages, and minimize the risk of data loss. We understand the importance of regularly reviewing and updating our plan to adapt to changes in
+our website's requirements and infrastructure.

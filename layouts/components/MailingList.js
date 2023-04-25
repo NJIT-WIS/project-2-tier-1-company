@@ -35,7 +35,7 @@ export default function NewsLetterSignUpForm() {
 <div className="my-4">
   <label
         className="mb-2 font-medium text-dark form__label"
-        htmlFor="email"
+        htmlFor="email-input"
       >
         Email
       </label>
@@ -44,7 +44,7 @@ export default function NewsLetterSignUpForm() {
         name="email"
         placeholder="Email Address"
         type="email"
-        id="email"
+        id="email-input"
         ref={inputRef}
         required
       />
@@ -54,11 +54,9 @@ export default function NewsLetterSignUpForm() {
       <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
   </div>
 <div className="my-3">
-<Popup trigger={<button type="submit" className="btn btn-primary block w-full" onClick="">
+<button type="submit" name="subscribe" className="btn btn-primary block w-full" value="">
       Subscribe!
-  </button>} modal>
-  <div>test popup</div>
-  </Popup>
+  </button>
 </div>
 </form>
 );

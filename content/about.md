@@ -6,7 +6,7 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re MyWebClass, and we're to help.
+  title: Hello, we’re MyWebClass, and we're to help.
   content: Welcome to MyWebClass, where learning meets connection. Our exclusive online learning platform offers tailored courses designed to empower you with practical skills, knowledge, and connections to thrive in today's dynamic world. Join our vibrant community of learners and unlock your full potential with MyWebClass.
   image: /images/about/01.jpg
 
@@ -55,7 +55,7 @@ clients:
     - /images/brands/06-colored.png
 
 
-## members
+## members 
 our_member:
   subtitle: OUR MEMBERS
   title: The People Behind MyWebClass
@@ -69,7 +69,7 @@ our_member:
       image: /images/about/team/02.jpg
     - name: Ortrin Okaster
       field: Engineering
-      image: /images/about/team/03.jpg
+      image: /images/about/team/03.jpg 
 
 ## office
 our_office:

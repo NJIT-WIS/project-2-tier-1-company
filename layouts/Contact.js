@@ -26,9 +26,9 @@ const Contact = ({ data }) => {
           </div>
           <div className="animate lg:col-5 my-5">
             <form
-              method="POST"
               action={config.params.contact_form_action}
               className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
+              onSubmit={console.log("")}
             >
               <h2 className="h4 mb-6">Send A Message</h2>
               <div className="mb-6">
@@ -84,11 +84,11 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea className="form-textarea w-full" rows="6" />
               </div>
-              <Popup trigger={<button className="btn btn-primary block w-full email" onClick="">
+              <Popup trigger={<button type="submit" className="btn btn-primary block w-full email" onClick="">
                 Submit
               </button>}
               modal>
-                <div>test popup</div>
+                <div>Message Sent!</div>
               </Popup>
             </form>
           </div>

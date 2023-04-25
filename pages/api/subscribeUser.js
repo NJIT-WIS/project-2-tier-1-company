@@ -2,6 +2,7 @@ import fetch from 'isomorphic-unfetch';
 
 export default async (req, res) => {
   const { email } = req.body;
+
   console.log({ email });
 
   if (!email) {
@@ -32,8 +33,7 @@ export default async (req, res) => {
 
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `There was an error subscribing to the newsletter.
-        Hit me up peter@peterlunch.com and I'll add you the old fashioned way :(.`,
+        error: `Error!`,
       });
     }
 

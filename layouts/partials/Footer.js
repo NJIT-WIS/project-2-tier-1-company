@@ -8,6 +8,7 @@ import Link from "next/link";
 import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
+import NewsLetterSignUpForm from "@components/MailingList";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
@@ -56,39 +57,7 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0 px-5">
     <div className="items-center justify-center">
       <div className="animate">
-        <form
-              method="POST"
-              action={config.params.contact_form_action}
-              className="contact-form"
-            >
-          <h3 className="h5">Mailing List</h3>
-          <div className="my-4">
-            <label
-                  className="mb-2 font-medium text-dark"
-                  htmlFor="email"
-                >
-                  Email
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="email"
-                  placeholder="Email Address"
-                  type="email"
-                  required
-                />
-            </div>
-            <div className="my-4 text-center">
-                <input type="checkbox" id="agree" name="agree" value="agree" required/>
-                <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
-            </div>
-          <div className="my-3">
-          <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
-                Subscribe!
-            </button>} modal>
-            <div>test popup</div>
-            </Popup>
-          </div>
-        </form>
+            <NewsLetterSignUpForm/>
       </div>
     </div>
   </div>

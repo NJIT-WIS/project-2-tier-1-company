@@ -25,6 +25,15 @@ const Footer = () => {
               {/* social icons */}
               <Social source={social} className="social-icons mt-5" />
             </div>
+            <div>
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img width={88} height={31}
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+          </a>
+        </p>
+      </div>
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Quick Links</h3>
@@ -66,15 +75,6 @@ const Footer = () => {
 
         {/* copyright */}
         <div className=" py-6 text-center">
-      <div>
-        <p>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img width={88} height={31}
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-          </a>
-        </p>
-      </div>
           {markdownify(copyright, "p", "footer-copy-write")}
         </div>
     

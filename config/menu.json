@@ -18,8 +18,8 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "url": "/posts"
     },
     {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
     }
   ]
 }

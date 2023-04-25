@@ -17,20 +17,20 @@ const Footer = () => {
       <div className="container">
         <div className="row border-y border-border py-12">
           
-          <div className="animate md:col-6 lg:col-3">
-          <div className="my-2 row items-center justify-center">
+  <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+    <div className="items-center justify-center">
       <div className="animate">
         <form
               method="POST"
               action={config.params.contact_form_action}
-              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
+              className="contact-form"
             >
-          <div className="my-5 text-center">
+          <div className="my-4 text-center">
           <h3 className="h5">Mailing List</h3>
           </div>
-          <div className="my-5">
+          <div className="my-4">
             <label
-                  className="mb-2 block font-medium text-dark"
+                  className="mb-1 block font-medium text-dark"
                   htmlFor="email"
                 >
                   Email
@@ -43,21 +43,21 @@ const Footer = () => {
                   required
                 />
             </div>
-            <div className="my-5 text-center">
+            <div className="my-4 text-center">
                 <input type="checkbox" id="agree" name="agree" value="agree" required/>
                 <label htmlFor="agree">  I agree to the <a href="/terms-policy" class="text-primary">Terms of Service</a> and Privacy Policy</label>
             </div>
-          <div className="my-5">
+          <div className="my-3">
           <Popup trigger={<button className="btn btn-primary block w-full" onClick="">
                 Subscribe!
             </button>} modal>
             <div>test popup</div>
             </Popup>
           </div>
-          </form>
-        </div>
+        </form>
       </div>
-          </div>
+    </div>
+  </div>
 
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Socials</h3>

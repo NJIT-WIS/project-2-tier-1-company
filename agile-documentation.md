@@ -31,3 +31,14 @@ The platform must measure and track learner progress and outcomes, using data an
 
 ## Project Scope
 The project aims to create an online learning platform that provides affordable and accessible courses to learners from diverse backgrounds. The platform will offer personalized and engaging learning experiences, leveraging cutting-edge technology and expert instructors. It will prioritize accessibility and inclusion, ensuring that all learners have equal access to the learning experience. The project will also provide a variety of volunteering opportunities that allow passionate individuals to contribute their expertise and support learners worldwide. The scope of the project will be defined by iterative sprints, with a focus on continuous improvement. The final product will be a scalable and sustainable platform that empowers learners to achieve their goals and make a positive impact in their communities and beyond.
+
+## Compliance Conditions
+Terms of Use: Clearly outline the terms and conditions that govern the use of the MyWebClass platform, including user obligations, prohibited activities, and limitations of liability.
+
+Privacy Policy: Provide a comprehensive privacy policy that explains how personal information is collected, used, and protected on the MyWebClass website, and provide an opt-in mechanism for users to consent to the collection and use of their personal data.
+
+Cookie Policy: Disclose the use of cookies and other tracking technologies on the MyWebClass website, and provide information about how users can manage or disable these technologies.
+
+Compliance with Laws: Clearly state that users must comply with all applicable laws and regulations when using the MyWebClass platform, and prohibit any illegal or unauthorized use of the platform.
+
+Modifications to Terms: Reserve the right to modify the compliance conditions at any time, and provide notice to users of any material changes.

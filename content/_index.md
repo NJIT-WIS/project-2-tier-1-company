@@ -6,7 +6,7 @@ banner:
     label: Learn More
     href: "#"
 
-##brands
+#brands
 brands:
   - /images/brands/01-colored.png
   - /images/brands/02-colored.png

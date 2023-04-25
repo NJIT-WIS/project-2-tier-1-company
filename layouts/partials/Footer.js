@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container">
         <div className="row border-y border-border py-12">
           
-  <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+  <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0 px-5">
     <div className="items-center justify-center">
       <div className="animate">
         <form
@@ -25,12 +25,10 @@ const Footer = () => {
               action={config.params.contact_form_action}
               className="contact-form"
             >
-          <div className="my-4 text-center">
           <h3 className="h5">Mailing List</h3>
-          </div>
           <div className="my-4">
             <label
-                  className="mb-1 block font-medium text-dark"
+                  className="mb-2 font-medium text-dark"
                   htmlFor="email"
                 >
                   Email
@@ -94,12 +92,14 @@ const Footer = () => {
               )}
             </ul>
           </div>
+
         </div>
 
         {/* copyright */}
         <div className=" py-6 text-center">
           {markdownify(copyright, "p", "footer-copy-write")}
         </div>
+    
       </div>
       
     </footer>

@@ -31,4 +31,4 @@
 | Playwright testing | 3 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/21 | In Progress | SarangAP | 4/23/2023 | TBD | Testing and documentation | Added test for links and images loading|
 | Contacts Page | 5 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/33 | In Progress | eyh3 | 4/24/2023 | TBD | User Engagement | Added email integration into the Contacts page|
 | Backup/Recovery Plan | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/35 | Completed | SarangAP | 4/23/2023 | 4/24/2023 | Quality Assurance | Added .md file with our backup/recovery plan |
-| Implement Favicon | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/14 | Completed | km776 | 4/24/2023 | 4/24/2023 | Frameworks and SEA | Changed and customized favicon to match aforementioned archetype |
+| Implement Favicon | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/14 | Completed | km776 | 4/24/2023 | 4/24/2023 | Framework and SEO | Changed and customized favicon to match aforementioned archetype |

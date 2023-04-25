@@ -55,21 +55,6 @@ clients:
     - /images/brands/06-colored.png
 
 
-## members
-our_member:
-  subtitle: OUR MEMBERS
-  title: The People Behind MyWebClass
-  content: We are proud to offer you a cutting-edge online learning platform that delivers personalized courses and fosters meaningful connections, empowering you to achieve your learning goals and excel in today's ever-changing landscape.
-  list:
-    - name: Valentin Staykov
-      field: Operations
-      image: /images/about/team/01.jpg
-    - name: Bukiakta Bansalo
-      field: Product
-      image: /images/about/team/02.jpg
-    - name: Ortrin Okaster
-      field: Engineering
-      image: /images/about/team/03.jpg
 
 ## office
 our_office:
@@ -78,8 +63,8 @@ our_office:
   content: MyWebClass could not be made without the help of our passionate developers and staff who believe in our mission as much as we do.
   countries:
     - flag: /images/about/flags/us.png
-      name: New York, USA
-      location: 219 Bald Hill Drive Oakland Gardens, NY 11364
+      name: Newark, NJ
+      location: 186 Bleeker St, Newark, NJ 07103
 
 ---
 

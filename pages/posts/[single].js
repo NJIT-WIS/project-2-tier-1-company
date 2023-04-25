@@ -47,8 +47,8 @@ export const getStaticProps = async ({ params }) => {
   const basePath = isDev ? '' : '/project-2-tier-1-company';
   post[0]["frontmatter"]["image"] = `${basePath}${post[0]["frontmatter"]["image"]}`; //might need to change this
   //console.log(post[0]["frontmatter"]["image"]);
-  console.log(post[0]["frontmatter"]["image"]);
-  console.log(process.env.NODE_ENV);
+  //console.log(post[0]["frontmatter"]["image"]);
+  //console.log(process.env.NODE_ENV);
 
   return {
     props: {

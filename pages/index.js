@@ -168,7 +168,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       "mb-8 banner-title opacity-0"
                     )}
                     <div className="banner-btn opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
+                      <Link className="btn btn-primary" href="https://njit-wis.github.io/project-2-tier-1-company/about">
                         {banner.link.label}
                       </Link>
                     </div>

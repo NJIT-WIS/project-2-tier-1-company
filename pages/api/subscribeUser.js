@@ -38,6 +38,6 @@ export default async (req, res) => {
 
     return res.status(201).json({ error: '' });
   } catch (error) {
-    return res.status(504).json({ error: error.message || error.toString() });
+    return res.status(405).json({ error: error.message || error.toString() });
   }
 };

@@ -2,7 +2,7 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#4E73AD",
+        "primary": "#3373b0",
         "body": "#ffff",
         "border": "#C6D4E8",
         "border_secondary": "#ffece4",
@@ -18,7 +18,7 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Poppins:wght@400;500;600;700",
+      "primary": "Garamond:wght@400;500;600;700",
       "primary_type": "sans-serif",
       "secondary": "",
       "secondary_type": ""

@@ -168,14 +168,14 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       "mb-8 banner-title opacity-0"
                     )}
                     <div className="banner-btn opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
+                      <Link className="btn btn-primary" href="https://njit-wis.github.io/project-2-tier-1-company/about">
                         {banner.link.label}
                       </Link>
                     </div>
                   </div>
-                  <div className="col-10">
+                  <div className="col-7">
                     <ImageFallback
-                      className="banner-img opacity-0"
+                      className="banner-img opacity-0 my--100"
                       src={banner.image}
                       width={1170}
                       height={666}

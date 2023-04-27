@@ -40,3 +40,4 @@
 | CSS Validation | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/34 | Complete | eyh3 | 4/25/2023 | 4/25/2023 | Quality Assurance | Used W3C validator to validate the CSS files
 | Track entire Sales Funnel | 2 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/31 | Completed | km776 | 4/25/2023 | 4/25/2023 | Analytics and Blog | Made sales-funnel.md which logs the sales funnel for particular groups of user |
 | Design Home Page Content | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/27/2023 | 4/27/2023 | Design And Content | Changed hero page |
+| Design Home Page Content | 1 | https://github.com/NJIT-WIS/project-2-tier-1-company/issues/54 | Completed | km776 | 4/27/2023 | 4/27/2023 | Design And Content | Removed company names from index.js |

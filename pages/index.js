@@ -173,9 +173,9 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       </Link>
                     </div>
                   </div>
-                  <div className="col-10">
+                  <div className="col-7">
                     <ImageFallback
-                      className="banner-img opacity-0"
+                      className="banner-img opacity-0 my--100"
                       src={banner.image}
                       width={1170}
                       height={666}

@@ -36,9 +36,10 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Themefisher, Tier 1 Company",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_description": "Andromeda-light Nextjs Blog Template",
+    "meta_title":"MyWebClass.org"
   },
 
   "call_to_action": {

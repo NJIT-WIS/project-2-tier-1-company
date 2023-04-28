@@ -149,6 +149,7 @@ const Base = ({
           content={`${base_url}${image ? image : meta_image}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
+        
       </Head>
       <Header />
       {/* main site */}

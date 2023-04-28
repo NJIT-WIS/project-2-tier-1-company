@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "MyWebClass.org",
+    "title": "MyWebClass.org - The new seamless way to learn",
     "base_url": "/",
      "favicon": "https://njit-wis.github.io/project-2-tier-1-company/images/favicon.png",
     "logo": "/images/logo.svg",
@@ -36,9 +36,10 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Themefisher, Tier 1 Company",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_description": "MyWebClass is the new seamless way to learn",
+    "meta_title":"MyWebClass.org"
   },
 
   "call_to_action": {

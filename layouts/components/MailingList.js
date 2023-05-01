@@ -59,6 +59,7 @@ export default function NewsLetterSignUpForm() {
   <span> Thanks for subscribing! </span> 
   </Popup>
 </div>
+Tier 1 Company follows all <a href="email-law" class="text-primary">email compliance laws.</a>
 </form>
 );
 }
